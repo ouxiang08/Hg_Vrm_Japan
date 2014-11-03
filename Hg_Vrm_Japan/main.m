@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HGAppDelegate.h"
 
 int main(int argc, char * argv[])
 {

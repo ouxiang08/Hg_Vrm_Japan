@@ -6,12 +6,18 @@
 //  Copyright (c) 2014年 jingjing.jia. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeViewController.h"
 
 #import "UIView+Extensions.h"
 #import "UIView+Additions.h"
 
-@interface ViewController ()<UIScrollViewDelegate>{
+
+//获取物理高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+//获取物理宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+@interface HomeViewController ()<UIScrollViewDelegate>{
     
     int currentPage;
 }
@@ -19,18 +25,27 @@
 
 @end
 
-@implementation ViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     //self.imageNameArray = [NSArray arrayWithObjects:@"firstPage", @"secondPage", @"thirdPage", @"forthPage", nil];
-    self.imageNameArray = [NSArray arrayWithObjects:@"thirdPage", @"thirdPage", @"thirdPage", @"thirdPage", nil];
-    self.pageScroll.contentSize = CGSizeMake(self.view.width*self.imageNameArray.count, self.view.height);
     
+    self.view.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.pageScroll.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
+    
+    self.imageNameArray = [NSArray arrayWithObjects:@"thirdPage", @"thirdPage", @"thirdPage", @"thirdPage", nil];
+    //self.pageScroll.contentSize = CGSizeMake(self.view.width*self.imageNameArray.count, self.view.height);
+     self.pageScroll.contentSize = CGSizeMake(ScreenWidth*self.imageNameArray.count, ScreenHeight);
     for (int i = 0;i < self.imageNameArray.count;i++) {
-        UIImageView *imgV = [[UIImageView alloc] init];
         
-        imgV.frame = CGRectMake(self.view.width*i, 0.f, self.view.width, self.view.height);
+        NSString *imgnName = [self.imageNameArray objectAtIndex:i];
+        UIImageView *imgV = [[UIImageView alloc] init];
+        imgV.userInteractionEnabled = YES;
+        imgV.frame = CGRectMake(ScreenWidth*i, 0.f,ScreenWidth, ScreenHeight);
+        imgV.image = [UIImage imageNamed:imgnName];
         [self.pageScroll addSubview:imgV];
         
 //        if (i == self.imageNameArray.count - 1) {
