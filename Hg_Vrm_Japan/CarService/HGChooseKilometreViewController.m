@@ -11,7 +11,10 @@
 
 #define HGKilometreCollectionViewCellIdentifier @"HGKilometreCollectionViewCell"
 
-@interface HGChooseKilometreViewController ()
+@interface HGChooseKilometreViewController (){
+
+    NSIndexPath *_seletedIndexPath;
+}
 
 @end
 
@@ -24,6 +27,14 @@
     
     UINib *lectureCell = [UINib nibWithNibName:@"HGKilometreCollectionViewCell" bundle:nil];
     [self.kilometreCollectionView registerNib:lectureCell forCellWithReuseIdentifier:HGKilometreCollectionViewCellIdentifier];
+}
+
+- (IBAction)onFront:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+- (IBAction)onNext:(id)sender {
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,12 +58,24 @@
         cell = [[HGKilometreCollectionViewCell alloc] init];
     }
     
+    NSString *imgName = [self.kilometreItems objectAtIndex:indexPath.row];
+    cell.kilometreImgV.image = [UIImage imageNamed:imgName];
+    
+    if (_seletedIndexPath==indexPath) {
+        cell.kilometreSele.image = [UIImage imageNamed:@"carSeleted.png"];
+    }else{
+        cell.kilometreSele.image = [UIImage imageNamed:@"carUnSele.png"];
+    }
+    
     return cell;
 }
 
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
+    if (_seletedIndexPath!=indexPath) {
+        _seletedIndexPath = indexPath;
+    }
     
 }
 

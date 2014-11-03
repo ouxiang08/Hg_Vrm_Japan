@@ -91,6 +91,14 @@
 		18C4C05E1A0790D40077026E /* carUnSele.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C4C05C1A0790D40077026E /* carUnSele.png */; };
 		18C4C0621A0793DD0077026E /* HGKilometreCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4C0601A0793DD0077026E /* HGKilometreCollectionViewCell.m */; };
 		18C4C0631A0793DD0077026E /* HGKilometreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C4C0611A0793DD0077026E /* HGKilometreCollectionViewCell.xib */; };
+		6E6080171A07CA04002112A1 /* HGCustomerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6080151A07CA04002112A1 /* HGCustomerListViewController.m */; };
+		6E6080181A07CA04002112A1 /* HGCustomerListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E6080161A07CA04002112A1 /* HGCustomerListViewController.xib */; };
+		6E60801C1A07CA1B002112A1 /* HGCustomerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60801A1A07CA1B002112A1 /* HGCustomerDetailViewController.m */; };
+		6E60801D1A07CA1B002112A1 /* HGCustomerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E60801B1A07CA1B002112A1 /* HGCustomerDetailViewController.xib */; };
+		6E6080211A07CA48002112A1 /* HGCustomerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60801F1A07CA48002112A1 /* HGCustomerInfoViewController.m */; };
+		6E6080221A07CA48002112A1 /* HGCustomerInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E6080201A07CA48002112A1 /* HGCustomerInfoViewController.xib */; };
+		6EB82E811A07C1CB00E9CFAD /* HGChooseContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB82E7F1A07C1CB00E9CFAD /* HGChooseContentViewController.m */; };
+		6EB82E821A07C1CB00E9CFAD /* HGChooseContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB82E801A07C1CB00E9CFAD /* HGChooseContentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -198,6 +206,18 @@
 		18C4C05F1A0793DD0077026E /* HGKilometreCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGKilometreCollectionViewCell.h; sourceTree = "<group>"; };
 		18C4C0601A0793DD0077026E /* HGKilometreCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGKilometreCollectionViewCell.m; sourceTree = "<group>"; };
 		18C4C0611A0793DD0077026E /* HGKilometreCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGKilometreCollectionViewCell.xib; sourceTree = "<group>"; };
+		6E6080141A07CA04002112A1 /* HGCustomerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCustomerListViewController.h; sourceTree = "<group>"; };
+		6E6080151A07CA04002112A1 /* HGCustomerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCustomerListViewController.m; sourceTree = "<group>"; };
+		6E6080161A07CA04002112A1 /* HGCustomerListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGCustomerListViewController.xib; sourceTree = "<group>"; };
+		6E6080191A07CA1B002112A1 /* HGCustomerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCustomerDetailViewController.h; sourceTree = "<group>"; };
+		6E60801A1A07CA1B002112A1 /* HGCustomerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCustomerDetailViewController.m; sourceTree = "<group>"; };
+		6E60801B1A07CA1B002112A1 /* HGCustomerDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGCustomerDetailViewController.xib; sourceTree = "<group>"; };
+		6E60801E1A07CA48002112A1 /* HGCustomerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCustomerInfoViewController.h; sourceTree = "<group>"; };
+		6E60801F1A07CA48002112A1 /* HGCustomerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCustomerInfoViewController.m; sourceTree = "<group>"; };
+		6E6080201A07CA48002112A1 /* HGCustomerInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGCustomerInfoViewController.xib; sourceTree = "<group>"; };
+		6EB82E7E1A07C1CB00E9CFAD /* HGChooseContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGChooseContentViewController.h; sourceTree = "<group>"; };
+		6EB82E7F1A07C1CB00E9CFAD /* HGChooseContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGChooseContentViewController.m; sourceTree = "<group>"; };
+		6EB82E801A07C1CB00E9CFAD /* HGChooseContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGChooseContentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -391,9 +411,21 @@
 				18B66A7E1A07623500053336 /* HGChooseKilometreViewController.h */,
 				18B66A7F1A07623500053336 /* HGChooseKilometreViewController.m */,
 				18B66A801A07623500053336 /* HGChooseKilometreViewController.xib */,
+				6EB82E7E1A07C1CB00E9CFAD /* HGChooseContentViewController.h */,
+				6EB82E7F1A07C1CB00E9CFAD /* HGChooseContentViewController.m */,
+				6EB82E801A07C1CB00E9CFAD /* HGChooseContentViewController.xib */,
 				18B66A891A076CA900053336 /* HGSettlementViewController.h */,
 				18B66A8A1A076CA900053336 /* HGSettlementViewController.m */,
 				18B66A8B1A076CA900053336 /* HGSettlementViewController.xib */,
+				6E6080141A07CA04002112A1 /* HGCustomerListViewController.h */,
+				6E6080151A07CA04002112A1 /* HGCustomerListViewController.m */,
+				6E6080161A07CA04002112A1 /* HGCustomerListViewController.xib */,
+				6E6080191A07CA1B002112A1 /* HGCustomerDetailViewController.h */,
+				6E60801A1A07CA1B002112A1 /* HGCustomerDetailViewController.m */,
+				6E60801B1A07CA1B002112A1 /* HGCustomerDetailViewController.xib */,
+				6E60801E1A07CA48002112A1 /* HGCustomerInfoViewController.h */,
+				6E60801F1A07CA48002112A1 /* HGCustomerInfoViewController.m */,
+				6E6080201A07CA48002112A1 /* HGCustomerInfoViewController.xib */,
 			);
 			path = CarService;
 			sourceTree = "<group>";
@@ -560,6 +592,7 @@
 				18B66AD11A077D9300053336 /* 95000.png in Resources */,
 				18B66AC21A077D9300053336 /* 25000.png in Resources */,
 				18B66A631A074D5200053336 /* loginBtn.png in Resources */,
+				6E6080181A07CA04002112A1 /* HGCustomerListViewController.xib in Resources */,
 				18B66ACE1A077D9300053336 /* 80000.png in Resources */,
 				18B66ACC1A077D9300053336 /* 70000.png in Resources */,
 				18B66AD21A077D9300053336 /* type1.png in Resources */,
@@ -568,6 +601,7 @@
 				18B66A911A076F9C00053336 /* brandImg.png in Resources */,
 				18B66ABE1A077D9300053336 /* 100000.png in Resources */,
 				18B66A5F1A074D5200053336 /* unSelected.png in Resources */,
+				6E60801D1A07CA1B002112A1 /* HGCustomerDetailViewController.xib in Resources */,
 				18B66AC11A077D9300053336 /* 2000.png in Resources */,
 				18B66A5D1A074D5200053336 /* selected.png in Resources */,
 				18B66A781A0761CB00053336 /* HGChooseBrandViewController.xib in Resources */,
@@ -587,10 +621,12 @@
 				18B66A821A07623500053336 /* HGChooseKilometreViewController.xib in Resources */,
 				18C4C05E1A0790D40077026E /* carUnSele.png in Resources */,
 				18B66A951A07798600053336 /* checkLogin@2x.png in Resources */,
+				6E6080221A07CA48002112A1 /* HGCustomerInfoViewController.xib in Resources */,
 				18B66A7D1A0761E700053336 /* HGChooseTypeViewController.xib in Resources */,
 				18B66A8F1A076CE800053336 /* settlementBgImg.png in Resources */,
 				18C4C0631A0793DD0077026E /* HGKilometreCollectionViewCell.xib in Resources */,
 				18B66A841A07645C00053336 /* brandBgImg.png in Resources */,
+				6EB82E821A07C1CB00E9CFAD /* HGChooseContentViewController.xib in Resources */,
 				18B66AD01A077D9300053336 /* 90000.png in Resources */,
 				18B66ACB1A077D9300053336 /* 65000.png in Resources */,
 				18B66A981A077AC800053336 /* leftArrow@2x.png in Resources */,
@@ -622,6 +658,7 @@
 				18B66A561A074D5200053336 /* NSArray+Addition.m in Sources */,
 				18B66A581A074D5200053336 /* UIImage+Additions.m in Sources */,
 				18B66A5A1A074D5200053336 /* UIView+Extensions.m in Sources */,
+				6E60801C1A07CA1B002112A1 /* HGCustomerDetailViewController.m in Sources */,
 				18B66A5C1A074D5200053336 /* LoginViewController.m in Sources */,
 				18B66A7C1A0761E700053336 /* HGChooseTypeViewController.m in Sources */,
 				18C4C0591A0790600077026E /* HGCarTypeCollectionViewCell.m in Sources */,
@@ -630,11 +667,14 @@
 				18B66A0F1A07418200053336 /* main.m in Sources */,
 				18B66A591A074D5200053336 /* UIView+Additions.m in Sources */,
 				18B66A371A074BF300053336 /* HGAppDelegate.m in Sources */,
+				6E6080171A07CA04002112A1 /* HGCustomerListViewController.m in Sources */,
 				18B66A771A0761CB00053336 /* HGChooseBrandViewController.m in Sources */,
 				18C4C0621A0793DD0077026E /* HGKilometreCollectionViewCell.m in Sources */,
+				6EB82E811A07C1CB00E9CFAD /* HGChooseContentViewController.m in Sources */,
 				18B66A661A07571400053336 /* HGDataStore.m in Sources */,
 				18B66A811A07623500053336 /* HGChooseKilometreViewController.m in Sources */,
 				18B66A8C1A076CA900053336 /* HGSettlementViewController.m in Sources */,
+				6E6080211A07CA48002112A1 /* HGCustomerInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

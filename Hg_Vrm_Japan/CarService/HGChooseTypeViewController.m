@@ -8,10 +8,15 @@
 
 #import "HGChooseTypeViewController.h"
 #import "HGCarTypeCollectionViewCell.h"
+#import "HGChooseBrandViewController.h"
+#import "HGChooseKilometreViewController.h"
 
 #define HGCarTypeCollectionViewCellIdentifier @"HGCarTypeCollectionViewCell"
 
-@interface HGChooseTypeViewController ()
+@interface HGChooseTypeViewController (){
+
+    NSIndexPath *_selectedIndexPath;
+}
 
 @end
 
@@ -21,6 +26,10 @@
     [super viewDidLoad];
     self.carTypeItems = [[NSMutableArray alloc] init];
     
+    for (int i=0; i<12; i++) {
+        [self.carTypeItems addObject:[NSString stringWithFormat:@"type%d.png",i]];
+    }
+    
     UINib *lectureCell = [UINib nibWithNibName:@"HGCarTypeCollectionViewCell" bundle:nil];
     [self.carTypeCollectionView registerNib:lectureCell forCellWithReuseIdentifier:HGCarTypeCollectionViewCellIdentifier];
 }
@@ -28,6 +37,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)onFront:(id)sender {
+ 
+    [self.navigationController popViewControllerAnimated:YES];
+}
+- (IBAction)onNext:(id)sender {
+    
+    HGChooseKilometreViewController *chooseKilometreVC = [[HGChooseKilometreViewController alloc] initWithNibName:@"HGChooseKilometreViewController" bundle:nil];
+    [self.navigationController pushViewController:chooseKilometreVC animated:YES];
 }
 
 #pragma mark - UICollectionViewDataSource
@@ -44,6 +62,15 @@
     if (!cell) {
         cell = [[HGCarTypeCollectionViewCell alloc] init];
     }
+    NSString *imgName = [self.carTypeItems objectAtIndex:indexPath.row];
+    cell.carTypeImgV.image = [UIImage imageNamed:imgName];
+    
+    if (_selectedIndexPath==indexPath) {
+        cell.carSelImgV.image = [UIImage imageNamed:@"carSeleted.png"];
+    }else{
+    
+        cell.carSelImgV.image = [UIImage imageNamed:@"carUnSele.png"];
+    }
 
     return cell;
 }
@@ -51,7 +78,9 @@
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    
+    if (indexPath!=_selectedIndexPath) {
+        _selectedIndexPath = indexPath;
+    }
 }
 
 /*

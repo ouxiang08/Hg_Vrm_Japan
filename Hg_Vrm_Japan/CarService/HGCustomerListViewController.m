@@ -1,18 +1,18 @@
 //
-//  HGSettlementViewController.m
+//  HGCustomerListViewController.m
 //  Hg_Vrm_Japan
 //
-//  Created by apple on 14/11/3.
+//  Created by jiajingjing on 14/11/3.
 //  Copyright (c) 2014年 jingjing.jia. All rights reserved.
 //
 
-#import "HGSettlementViewController.h"
+#import "HGCustomerListViewController.h"
 
-@interface HGSettlementViewController ()
+@interface HGCustomerListViewController ()
 
 @end
 
-@implementation HGSettlementViewController
+@implementation HGCustomerListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,14 +22,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)onFront:(id)sender {
-    
-    [self.navigationController popViewControllerAnimated:YES];
-}
-- (IBAction)onNext:(id)sender {
-    
 }
 
 /*
