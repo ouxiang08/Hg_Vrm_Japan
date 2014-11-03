@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HGChooseBrandViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brandBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iup-LP-ngQ">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cur-fa-sH0">
+                    <rect key="frame" x="387" y="0.0" width="250" height="768"/>
+                    <state key="normal" title="Button" backgroundImage="brandImg.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickBrand:" destination="-1" eventType="touchUpInside" id="3rO-AP-RpC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ryy-ce-kA4">
+                    <rect key="frame" x="637" y="-8" width="250" height="768"/>
+                    <state key="normal" title="Button" backgroundImage="brandImg.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickBrand:" destination="-1" eventType="touchUpInside" id="Ydr-VR-6vC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdi-gm-Ir1">
+                    <rect key="frame" x="983" y="332" width="41" height="104"/>
+                    <state key="normal" backgroundImage="rightArrow.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGL-yj-dCJ">
+                    <rect key="frame" x="0.0" y="332" width="41" height="104"/>
+                    <state key="normal" backgroundImage="leftArrow.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJi-jY-AzM">
+                    <rect key="frame" x="137" y="0.0" width="250" height="768"/>
+                    <state key="normal" title="Button" backgroundImage="brandImg.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickBrand:" destination="-1" eventType="touchUpInside" id="ydv-A0-mWL"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Iup-LP-ngQ" secondAttribute="trailing" id="4dj-2H-sNG"/>
+                <constraint firstItem="Iup-LP-ngQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ffw-YE-EMn"/>
+                <constraint firstAttribute="bottom" secondItem="Iup-LP-ngQ" secondAttribute="bottom" id="w6l-hF-pWn"/>
+                <constraint firstItem="Iup-LP-ngQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wGa-Pn-W6V"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <point key="canvasLocation" x="77" y="202"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="brandBgImg.png" width="2048" height="1536"/>
+        <image name="brandImg.png" width="499" height="1536"/>
+        <image name="leftArrow.png" width="41" height="103"/>
+        <image name="rightArrow.png" width="41" height="103"/>
+    </resources>
+</document>

@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "HGChooseBrandViewController.h"
 
 @interface LoginViewController ()
 
@@ -22,11 +23,21 @@
     }
     return self;
 }
+- (void)viewDidAppear:(BOOL)animated{
+
+    [super viewDidAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+- (IBAction)onLoginAction:(id)sender {
+    
+    HGChooseBrandViewController *brandVC = [[HGChooseBrandViewController alloc] initWithNibName:@"HGChooseBrandViewController" bundle:nil];
+    [self.navigationController pushViewController:brandVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XZGoodModel.h"
+//#import "XZGoodModel.h"
 
 #define KUserJson @"UserJson"
 #define KUserInfo @"UserInfo"
@@ -15,6 +15,8 @@
 #define KAreaData @"area"
 #define KBDUid @"bduid"
 #define KBDChannelId @"bdchannelid"
+#define KIsLogin @"isLogin"
+#define KIsRemenber @"isRemenberUser"
 
 //是否登入
 #define isLogin ([[[XZDataStore sharedObject] userInfo] objectForKey:@"userid"])
@@ -25,13 +27,10 @@
 #define Identity_Liaison  3
 #define Identity_Double   4
 
+@interface HGDataStore : NSObject
 
 
-@interface XZDataStore : NSObject
-
-@property(nonatomic,retain)UINavigationController *naviCtrl;
-
-+ (XZDataStore *) sharedObject;
++ (HGDataStore *) sharedObject;
 
 - (void)saveUserInfo:(NSDictionary *)userInfo;
 - (NSDictionary *)userInfo;
@@ -39,9 +38,9 @@
 - (void)saveUserJson: (NSString *)userJson;
 - (NSString *)userJson;
 
-- (void)saveCartData:(XZGoodModel *)model complete:(void(^)(BOOL success))block;
-- (void)saveCartDataArray:(NSMutableArray *)arrModel;
-- (NSMutableArray *)cartData;
+- (void)saveUserChoose: (NSString *)userJson;
+- (NSString *)userChoose;
+
 
 - (void)saveAreaData:(NSArray *)areaData;
 - (NSMutableArray *)areaData;

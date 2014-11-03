@@ -7,10 +7,8 @@
 //
 
 #import "HomeViewController.h"
-
-#import "UIView+Extensions.h"
-#import "UIView+Additions.h"
-
+#import "LoginViewController.h"
+#import "HGDataStore.h"
 
 //获取物理高度
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -21,7 +19,6 @@
     
     int currentPage;
 }
-
 
 @end
 
@@ -43,9 +40,16 @@
         
         NSString *imgnName = [self.imageNameArray objectAtIndex:i];
         UIImageView *imgV = [[UIImageView alloc] init];
+        imgV.tag = 100+i;
         imgV.userInteractionEnabled = YES;
         imgV.frame = CGRectMake(ScreenWidth*i, 0.f,ScreenWidth, ScreenHeight);
         imgV.image = [UIImage imageNamed:imgnName];
+        
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showLoginView:)];
+        tap.numberOfTapsRequired = 1;
+        [imgV addGestureRecognizer:tap];
+        
+        
         [self.pageScroll addSubview:imgV];
         
 //        if (i == self.imageNameArray.count - 1) {
@@ -63,6 +67,22 @@
 //        self.pageControl.currentPage = currentPage;
     }
 }
+
+- (void)showLoginView:(id)sender{
+
+    NSString *isLoin = [[[HGDataStore sharedObject] userInfo] objectForKey:@"userName"];
+    if (isLoin) {
+        
+    }else{
+    
+        LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
+        
+    
+        [self presentViewController:nav animated:YES completion:^{}];
+    }
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

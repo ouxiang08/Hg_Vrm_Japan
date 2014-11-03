@@ -13,7 +13,6 @@
 		18B66A0F1A07418200053336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A0E1A07418200053336 /* main.m */; };
 		18B66A111A07418200053336 /* Hg_Vrm_Japan-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A101A07418200053336 /* Hg_Vrm_Japan-Info.plist */; };
 		18B66A131A07418200053336 /* Hg_Vrm_Japan-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A121A07418200053336 /* Hg_Vrm_Japan-Prefix.pch */; };
-		18B66A191A07418200053336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A171A07418200053336 /* Main.storyboard */; };
 		18B66A1B1A07418200053336 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A1A1A07418200053336 /* Images.xcassets */; };
 		18B66A221A07418200053336 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A211A07418200053336 /* XCTest.framework */; };
 		18B66A271A07418200053336 /* Hg_Vrm_JapanTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A261A07418200053336 /* Hg_Vrm_JapanTests-Info.plist */; };
@@ -34,7 +33,25 @@
 		18B66A611A074D5200053336 /* checkLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A521A074D5200053336 /* checkLogin.png */; };
 		18B66A621A074D5200053336 /* loginBgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A531A074D5200053336 /* loginBgImg.png */; };
 		18B66A631A074D5200053336 /* loginBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A541A074D5200053336 /* loginBtn.png */; };
-		18B66A661A07571400053336 /* XZDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A651A07571400053336 /* XZDataStore.m */; };
+		18B66A661A07571400053336 /* HGDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A651A07571400053336 /* HGDataStore.m */; };
+		18B66A6A1A075F8000053336 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A671A075F8000053336 /* HomeViewController.xib */; };
+		18B66A701A07608A00053336 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A6D1A07608A00053336 /* LoginViewController.xib */; };
+		18B66A771A0761CB00053336 /* HGChooseBrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A751A0761CB00053336 /* HGChooseBrandViewController.m */; };
+		18B66A781A0761CB00053336 /* HGChooseBrandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A761A0761CB00053336 /* HGChooseBrandViewController.xib */; };
+		18B66A7C1A0761E700053336 /* HGChooseTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A7A1A0761E700053336 /* HGChooseTypeViewController.m */; };
+		18B66A7D1A0761E700053336 /* HGChooseTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A7B1A0761E700053336 /* HGChooseTypeViewController.xib */; };
+		18B66A811A07623500053336 /* HGChooseKilometreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A7F1A07623500053336 /* HGChooseKilometreViewController.m */; };
+		18B66A821A07623500053336 /* HGChooseKilometreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A801A07623500053336 /* HGChooseKilometreViewController.xib */; };
+		18B66A841A07645C00053336 /* brandBgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A831A07645C00053336 /* brandBgImg.png */; };
+		18B66A861A07655100053336 /* kilometreBgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A851A07655100053336 /* kilometreBgImg.png */; };
+		18B66A881A07663700053336 /* typeBgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A871A07663700053336 /* typeBgImg.png */; };
+		18B66A8C1A076CA900053336 /* HGSettlementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A8A1A076CA900053336 /* HGSettlementViewController.m */; };
+		18B66A8D1A076CA900053336 /* HGSettlementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A8B1A076CA900053336 /* HGSettlementViewController.xib */; };
+		18B66A8F1A076CE800053336 /* settlementBgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A8E1A076CE800053336 /* settlementBgImg.png */; };
+		18B66A911A076F9C00053336 /* brandImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A901A076F9C00053336 /* brandImg.png */; };
+		18B66A951A07798600053336 /* checkLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A941A07798600053336 /* checkLogin@2x.png */; };
+		18B66A981A077AC800053336 /* leftArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A961A077AC800053336 /* leftArrow@2x.png */; };
+		18B66A991A077AC800053336 /* rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A971A077AC800053336 /* rightArrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +63,6 @@
 		18B66A0E1A07418200053336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18B66A101A07418200053336 /* Hg_Vrm_Japan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hg_Vrm_Japan-Info.plist"; sourceTree = "<group>"; };
 		18B66A121A07418200053336 /* Hg_Vrm_Japan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hg_Vrm_Japan-Prefix.pch"; sourceTree = "<group>"; };
-		18B66A181A07418200053336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B66A1A1A07418200053336 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18B66A201A07418200053336 /* Hg_Vrm_JapanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hg_Vrm_JapanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B66A211A07418200053336 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -78,8 +94,30 @@
 		18B66A521A074D5200053336 /* checkLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkLogin.png; sourceTree = "<group>"; };
 		18B66A531A074D5200053336 /* loginBgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBgImg.png; sourceTree = "<group>"; };
 		18B66A541A074D5200053336 /* loginBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBtn.png; sourceTree = "<group>"; };
-		18B66A641A07571400053336 /* XZDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDataStore.h; sourceTree = "<group>"; };
-		18B66A651A07571400053336 /* XZDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDataStore.m; sourceTree = "<group>"; };
+		18B66A641A07571400053336 /* HGDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGDataStore.h; sourceTree = "<group>"; };
+		18B66A651A07571400053336 /* HGDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGDataStore.m; sourceTree = "<group>"; };
+		18B66A671A075F8000053336 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		18B66A6D1A07608A00053336 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		18B66A741A0761CB00053336 /* HGChooseBrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGChooseBrandViewController.h; sourceTree = "<group>"; };
+		18B66A751A0761CB00053336 /* HGChooseBrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGChooseBrandViewController.m; sourceTree = "<group>"; };
+		18B66A761A0761CB00053336 /* HGChooseBrandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGChooseBrandViewController.xib; sourceTree = "<group>"; };
+		18B66A791A0761E700053336 /* HGChooseTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGChooseTypeViewController.h; sourceTree = "<group>"; };
+		18B66A7A1A0761E700053336 /* HGChooseTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGChooseTypeViewController.m; sourceTree = "<group>"; };
+		18B66A7B1A0761E700053336 /* HGChooseTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGChooseTypeViewController.xib; sourceTree = "<group>"; };
+		18B66A7E1A07623500053336 /* HGChooseKilometreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGChooseKilometreViewController.h; sourceTree = "<group>"; };
+		18B66A7F1A07623500053336 /* HGChooseKilometreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGChooseKilometreViewController.m; sourceTree = "<group>"; };
+		18B66A801A07623500053336 /* HGChooseKilometreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGChooseKilometreViewController.xib; sourceTree = "<group>"; };
+		18B66A831A07645C00053336 /* brandBgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brandBgImg.png; sourceTree = "<group>"; };
+		18B66A851A07655100053336 /* kilometreBgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kilometreBgImg.png; sourceTree = "<group>"; };
+		18B66A871A07663700053336 /* typeBgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = typeBgImg.png; sourceTree = "<group>"; };
+		18B66A891A076CA900053336 /* HGSettlementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGSettlementViewController.h; sourceTree = "<group>"; };
+		18B66A8A1A076CA900053336 /* HGSettlementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSettlementViewController.m; sourceTree = "<group>"; };
+		18B66A8B1A076CA900053336 /* HGSettlementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGSettlementViewController.xib; sourceTree = "<group>"; };
+		18B66A8E1A076CE800053336 /* settlementBgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settlementBgImg.png; sourceTree = "<group>"; };
+		18B66A901A076F9C00053336 /* brandImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brandImg.png; sourceTree = "<group>"; };
+		18B66A941A07798600053336 /* checkLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkLogin@2x.png"; sourceTree = "<group>"; };
+		18B66A961A077AC800053336 /* leftArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftArrow@2x.png"; sourceTree = "<group>"; };
+		18B66A971A077AC800053336 /* rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,15 +175,19 @@
 		18B66A0B1A07418200053336 /* Hg_Vrm_Japan */ = {
 			isa = PBXGroup;
 			children = (
-				18B66A381A074D5200053336 /* HomeViewController.m */,
+				18B66A101A07418200053336 /* Hg_Vrm_Japan-Info.plist */,
+				18B66A121A07418200053336 /* Hg_Vrm_Japan-Prefix.pch */,
 				18B66A391A074D5200053336 /* HomeViewController.h */,
-				18B66A3A1A074D5200053336 /* General */,
+				18B66A381A074D5200053336 /* HomeViewController.m */,
+				18B66A671A075F8000053336 /* HomeViewController.xib */,
 				18B66A491A074D5200053336 /* LoginViewController.h */,
 				18B66A4A1A074D5200053336 /* LoginViewController.m */,
+				18B66A6D1A07608A00053336 /* LoginViewController.xib */,
+				18B66A731A0761A000053336 /* CarService */,
+				18B66A3A1A074D5200053336 /* General */,
 				18B66A4B1A074D5200053336 /* Images */,
 				18B66A351A074BF300053336 /* HGAppDelegate.h */,
 				18B66A361A074BF300053336 /* HGAppDelegate.m */,
-				18B66A171A07418200053336 /* Main.storyboard */,
 				18B66A1A1A07418200053336 /* Images.xcassets */,
 				18B66A0C1A07418200053336 /* Supporting Files */,
 			);
@@ -155,8 +197,6 @@
 		18B66A0C1A07418200053336 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				18B66A101A07418200053336 /* Hg_Vrm_Japan-Info.plist */,
-				18B66A121A07418200053336 /* Hg_Vrm_Japan-Prefix.pch */,
 				18B66A0D1A07418200053336 /* Info.plist */,
 				18B66A0E1A07418200053336 /* main.m */,
 			);
@@ -184,8 +224,8 @@
 		18B66A3A1A074D5200053336 /* General */ = {
 			isa = PBXGroup;
 			children = (
-				18B66A641A07571400053336 /* XZDataStore.h */,
-				18B66A651A07571400053336 /* XZDataStore.m */,
+				18B66A641A07571400053336 /* HGDataStore.h */,
+				18B66A651A07571400053336 /* HGDataStore.m */,
 				18B66A3B1A074D5200053336 /* Categories */,
 				18B66A461A074D5200053336 /* PageControl */,
 			);
@@ -221,6 +261,14 @@
 		18B66A4B1A074D5200053336 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				18B66A961A077AC800053336 /* leftArrow@2x.png */,
+				18B66A971A077AC800053336 /* rightArrow@2x.png */,
+				18B66A941A07798600053336 /* checkLogin@2x.png */,
+				18B66A901A076F9C00053336 /* brandImg.png */,
+				18B66A8E1A076CE800053336 /* settlementBgImg.png */,
+				18B66A871A07663700053336 /* typeBgImg.png */,
+				18B66A851A07655100053336 /* kilometreBgImg.png */,
+				18B66A831A07645C00053336 /* brandBgImg.png */,
 				18B66A4C1A074D5200053336 /* Home */,
 				18B66A501A074D5200053336 /* Login */,
 			);
@@ -246,6 +294,25 @@
 				18B66A541A074D5200053336 /* loginBtn.png */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		18B66A731A0761A000053336 /* CarService */ = {
+			isa = PBXGroup;
+			children = (
+				18B66A741A0761CB00053336 /* HGChooseBrandViewController.h */,
+				18B66A751A0761CB00053336 /* HGChooseBrandViewController.m */,
+				18B66A761A0761CB00053336 /* HGChooseBrandViewController.xib */,
+				18B66A791A0761E700053336 /* HGChooseTypeViewController.h */,
+				18B66A7A1A0761E700053336 /* HGChooseTypeViewController.m */,
+				18B66A7B1A0761E700053336 /* HGChooseTypeViewController.xib */,
+				18B66A7E1A07623500053336 /* HGChooseKilometreViewController.h */,
+				18B66A7F1A07623500053336 /* HGChooseKilometreViewController.m */,
+				18B66A801A07623500053336 /* HGChooseKilometreViewController.xib */,
+				18B66A891A076CA900053336 /* HGSettlementViewController.h */,
+				18B66A8A1A076CA900053336 /* HGSettlementViewController.m */,
+				18B66A8B1A076CA900053336 /* HGSettlementViewController.xib */,
+			);
+			path = CarService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,17 +394,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B66A191A07418200053336 /* Main.storyboard in Resources */,
 				18B66A1B1A07418200053336 /* Images.xcassets in Resources */,
+				18B66A8D1A076CA900053336 /* HGSettlementViewController.xib in Resources */,
 				18B66A621A074D5200053336 /* loginBgImg.png in Resources */,
+				18B66A881A07663700053336 /* typeBgImg.png in Resources */,
 				18B66A631A074D5200053336 /* loginBtn.png in Resources */,
 				18B66A111A07418200053336 /* Hg_Vrm_Japan-Info.plist in Resources */,
+				18B66A911A076F9C00053336 /* brandImg.png in Resources */,
 				18B66A5F1A074D5200053336 /* unSelected.png in Resources */,
 				18B66A5D1A074D5200053336 /* selected.png in Resources */,
+				18B66A781A0761CB00053336 /* HGChooseBrandViewController.xib in Resources */,
 				18B66A601A074D5200053336 /* checked.png in Resources */,
 				18B66A611A074D5200053336 /* checkLogin.png in Resources */,
+				18B66A701A07608A00053336 /* LoginViewController.xib in Resources */,
+				18B66A861A07655100053336 /* kilometreBgImg.png in Resources */,
 				18B66A5E1A074D5200053336 /* thirdPage.png in Resources */,
 				18B66A131A07418200053336 /* Hg_Vrm_Japan-Prefix.pch in Resources */,
+				18B66A821A07623500053336 /* HGChooseKilometreViewController.xib in Resources */,
+				18B66A951A07798600053336 /* checkLogin@2x.png in Resources */,
+				18B66A7D1A0761E700053336 /* HGChooseTypeViewController.xib in Resources */,
+				18B66A8F1A076CE800053336 /* settlementBgImg.png in Resources */,
+				18B66A841A07645C00053336 /* brandBgImg.png in Resources */,
+				18B66A981A077AC800053336 /* leftArrow@2x.png in Resources */,
+				18B66A6A1A075F8000053336 /* HomeViewController.xib in Resources */,
+				18B66A991A077AC800053336 /* rightArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,12 +441,16 @@
 				18B66A581A074D5200053336 /* UIImage+Additions.m in Sources */,
 				18B66A5A1A074D5200053336 /* UIView+Extensions.m in Sources */,
 				18B66A5C1A074D5200053336 /* LoginViewController.m in Sources */,
+				18B66A7C1A0761E700053336 /* HGChooseTypeViewController.m in Sources */,
 				18B66A551A074D5200053336 /* HomeViewController.m in Sources */,
 				18B66A571A074D5200053336 /* UIColor+CustomColors.m in Sources */,
 				18B66A0F1A07418200053336 /* main.m in Sources */,
 				18B66A591A074D5200053336 /* UIView+Additions.m in Sources */,
 				18B66A371A074BF300053336 /* HGAppDelegate.m in Sources */,
-				18B66A661A07571400053336 /* XZDataStore.m in Sources */,
+				18B66A771A0761CB00053336 /* HGChooseBrandViewController.m in Sources */,
+				18B66A661A07571400053336 /* HGDataStore.m in Sources */,
+				18B66A811A07623500053336 /* HGChooseKilometreViewController.m in Sources */,
+				18B66A8C1A076CA900053336 /* HGSettlementViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,17 +463,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		18B66A171A07418200053336 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18B66A181A07418200053336 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18B66A2A1A07418200053336 /* Debug */ = {
