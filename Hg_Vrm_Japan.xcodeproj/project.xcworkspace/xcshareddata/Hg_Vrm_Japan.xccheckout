@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95CF2CBA-8384-42AD-8F26-7334CB72E046</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hg_Vrm_Japan</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0BFFF5D686075E8667F9DA982EECBAD21497A278</key>
+		<string>https://github.com/ouxiang08/Hg_Vrm_Japan.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Hg_Vrm_Japan.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0BFFF5D686075E8667F9DA982EECBAD21497A278</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ouxiang08/Hg_Vrm_Japan.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0BFFF5D686075E8667F9DA982EECBAD21497A278</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0BFFF5D686075E8667F9DA982EECBAD21497A278</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Hg_Vrm_Japan</string>
+		</dict>
+	</array>
+</dict>
+</plist>
