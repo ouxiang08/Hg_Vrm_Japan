@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HGChooseTypeViewController : UIViewController
+@interface HGChooseTypeViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UICollectionView *carTypeCollectionView;
+@property (strong, nonatomic) NSMutableArray *carTypeItems;
 
 @end

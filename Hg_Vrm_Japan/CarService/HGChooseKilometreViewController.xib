@@ -7,17 +7,43 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HGChooseKilometreViewController">
             <connections>
+                <outlet property="kilometreCollectionView" destination="79Q-Rd-ZVZ" id="kmV-6e-iXb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kilometreBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Zb-8t-fLJ">
-                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCr-7P-tRV">
+                    <rect key="frame" x="0.0" y="35" width="41" height="104"/>
+                    <state key="normal" backgroundImage="leftArrow.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yq-6w-d4e">
+                    <rect key="frame" x="983" y="35" width="41" height="104"/>
+                    <state key="normal" backgroundImage="rightArrow.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="79Q-Rd-ZVZ">
+                    <rect key="frame" x="23" y="222" width="988" height="525"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="20" id="TId-Pg-ISa">
+                        <size key="itemSize" width="272" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="40" minY="40" maxX="40" maxY="40"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="77b-mA-SLC"/>
+                        <outlet property="delegate" destination="-1" id="GWK-kI-bEf"/>
+                    </connections>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -26,10 +52,14 @@
                 <constraint firstAttribute="bottom" secondItem="2Zb-8t-fLJ" secondAttribute="bottom" id="fP1-Zx-V8d"/>
                 <constraint firstItem="2Zb-8t-fLJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tff-Ul-4Es"/>
             </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
             <point key="canvasLocation" x="405" y="338"/>
         </view>
     </objects>
     <resources>
         <image name="kilometreBgImg.png" width="2048" height="1536"/>
+        <image name="leftArrow.png" width="41" height="103"/>
+        <image name="rightArrow.png" width="41" height="103"/>
     </resources>
 </document>

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HGChooseKilometreViewController : UIViewController
+@interface HGChooseKilometreViewController : UIViewController<UICollectionViewDataSource,UIBarPositioningDelegate>
+
+@property (strong, nonatomic) IBOutlet UICollectionView *kilometreCollectionView;
+@property (strong, nonatomic) NSMutableArray *kilometreItems;
 
 @end

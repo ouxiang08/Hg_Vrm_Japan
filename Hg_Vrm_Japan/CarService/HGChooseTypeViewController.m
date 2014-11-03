@@ -7,6 +7,9 @@
 //
 
 #import "HGChooseTypeViewController.h"
+#import "HGCarTypeCollectionViewCell.h"
+
+#define HGCarTypeCollectionViewCellIdentifier @"HGCarTypeCollectionViewCell"
 
 @interface HGChooseTypeViewController ()
 
@@ -16,12 +19,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.carTypeItems = [[NSMutableArray alloc] init];
+    
+    UINib *lectureCell = [UINib nibWithNibName:@"HGCarTypeCollectionViewCell" bundle:nil];
+    [self.carTypeCollectionView registerNib:lectureCell forCellWithReuseIdentifier:HGCarTypeCollectionViewCellIdentifier];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - UICollectionViewDataSource
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+
+    return self.carTypeItems.count;
+}
+
+// The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+
+    HGCarTypeCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:HGCarTypeCollectionViewCellIdentifier forIndexPath:indexPath];
+    if (!cell) {
+        cell = [[HGCarTypeCollectionViewCell alloc] init];
+    }
+
+    return cell;
+}
+
+#pragma mark - UICollectionViewDelegate
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
 }
 
 /*
