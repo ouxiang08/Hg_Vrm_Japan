@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B66A061A07418200053336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A051A07418200053336 /* Foundation.framework */; };
+		18B66A081A07418200053336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A071A07418200053336 /* CoreGraphics.framework */; };
+		18B66A0A1A07418200053336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A091A07418200053336 /* UIKit.framework */; };
+		18B66A0F1A07418200053336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A0E1A07418200053336 /* main.m */; };
+		18B66A111A07418200053336 /* Hg_Vrm_Japan-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A101A07418200053336 /* Hg_Vrm_Japan-Info.plist */; };
+		18B66A131A07418200053336 /* Hg_Vrm_Japan-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A121A07418200053336 /* Hg_Vrm_Japan-Prefix.pch */; };
+		18B66A161A07418200053336 /* HGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A151A07418200053336 /* HGAppDelegate.m */; };
+		18B66A191A07418200053336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A171A07418200053336 /* Main.storyboard */; };
+		18B66A1B1A07418200053336 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A1A1A07418200053336 /* Images.xcassets */; };
+		18B66A221A07418200053336 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A211A07418200053336 /* XCTest.framework */; };
+		18B66A271A07418200053336 /* Hg_Vrm_JapanTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B66A261A07418200053336 /* Hg_Vrm_JapanTests-Info.plist */; };
+		18B66A291A07418200053336 /* Hg_Vrm_JapanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B66A281A07418200053336 /* Hg_Vrm_JapanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B66A021A07418200053336 /* Hg_Vrm_Japan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hg_Vrm_Japan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B66A051A07418200053336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18B66A071A07418200053336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18B66A091A07418200053336 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18B66A0D1A07418200053336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B66A0E1A07418200053336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B66A101A07418200053336 /* Hg_Vrm_Japan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hg_Vrm_Japan-Info.plist"; sourceTree = "<group>"; };
+		18B66A121A07418200053336 /* Hg_Vrm_Japan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hg_Vrm_Japan-Prefix.pch"; sourceTree = "<group>"; };
+		18B66A141A07418200053336 /* HGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGAppDelegate.h; sourceTree = "<group>"; };
+		18B66A151A07418200053336 /* HGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGAppDelegate.m; sourceTree = "<group>"; };
+		18B66A181A07418200053336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B66A1A1A07418200053336 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18B66A201A07418200053336 /* Hg_Vrm_JapanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hg_Vrm_JapanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B66A211A07418200053336 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18B66A251A07418200053336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B66A261A07418200053336 /* Hg_Vrm_JapanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hg_Vrm_JapanTests-Info.plist"; sourceTree = "<group>"; };
+		18B66A281A07418200053336 /* Hg_Vrm_JapanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hg_Vrm_JapanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B669FF1A07418200053336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B66A081A07418200053336 /* CoreGraphics.framework in Frameworks */,
+				18B66A0A1A07418200053336 /* UIKit.framework in Frameworks */,
+				18B66A061A07418200053336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B66A1D1A07418200053336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B66A221A07418200053336 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B669F91A07418200053336 = {
+			isa = PBXGroup;
+			children = (
+				18B66A0B1A07418200053336 /* Hg_Vrm_Japan */,
+				18B66A231A07418200053336 /* Hg_Vrm_JapanTests */,
+				18B66A041A07418200053336 /* Frameworks */,
+				18B66A031A07418200053336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B66A031A07418200053336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B66A021A07418200053336 /* Hg_Vrm_Japan.app */,
+				18B66A201A07418200053336 /* Hg_Vrm_JapanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B66A041A07418200053336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B66A051A07418200053336 /* Foundation.framework */,
+				18B66A071A07418200053336 /* CoreGraphics.framework */,
+				18B66A091A07418200053336 /* UIKit.framework */,
+				18B66A211A07418200053336 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18B66A0B1A07418200053336 /* Hg_Vrm_Japan */ = {
+			isa = PBXGroup;
+			children = (
+				18B66A101A07418200053336 /* Hg_Vrm_Japan-Info.plist */,
+				18B66A121A07418200053336 /* Hg_Vrm_Japan-Prefix.pch */,
+				18B66A141A07418200053336 /* HGAppDelegate.h */,
+				18B66A151A07418200053336 /* HGAppDelegate.m */,
+				18B66A171A07418200053336 /* Main.storyboard */,
+				18B66A1A1A07418200053336 /* Images.xcassets */,
+				18B66A0C1A07418200053336 /* Supporting Files */,
+			);
+			path = Hg_Vrm_Japan;
+			sourceTree = "<group>";
+		};
+		18B66A0C1A07418200053336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B66A0D1A07418200053336 /* Info.plist */,
+				18B66A0E1A07418200053336 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B66A231A07418200053336 /* Hg_Vrm_JapanTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B66A261A07418200053336 /* Hg_Vrm_JapanTests-Info.plist */,
+				18B66A281A07418200053336 /* Hg_Vrm_JapanTests.m */,
+				18B66A241A07418200053336 /* Supporting Files */,
+			);
+			path = Hg_Vrm_JapanTests;
+			sourceTree = "<group>";
+		};
+		18B66A241A07418200053336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B66A251A07418200053336 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B66A011A07418200053336 /* Hg_Vrm_Japan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B66A2C1A07418200053336 /* Build configuration list for PBXNativeTarget "Hg_Vrm_Japan" */;
+			buildPhases = (
+				18B669FE1A07418200053336 /* Sources */,
+				18B669FF1A07418200053336 /* Frameworks */,
+				18B66A001A07418200053336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hg_Vrm_Japan;
+			productName = Hg_Vrm_Japan;
+			productReference = 18B66A021A07418200053336 /* Hg_Vrm_Japan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B66A1F1A07418200053336 /* Hg_Vrm_JapanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B66A2F1A07418200053336 /* Build configuration list for PBXNativeTarget "Hg_Vrm_JapanTests" */;
+			buildPhases = (
+				18B66A1C1A07418200053336 /* Sources */,
+				18B66A1D1A07418200053336 /* Frameworks */,
+				18B66A1E1A07418200053336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hg_Vrm_JapanTests;
+			productName = Hg_Vrm_JapanTests;
+			productReference = 18B66A201A07418200053336 /* Hg_Vrm_JapanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B669FA1A07418200053336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HG;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = jingjing.jia;
+				TargetAttributes = {
+					18B66A011A07418200053336 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					18B66A1F1A07418200053336 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 18B669FD1A07418200053336 /* Build configuration list for PBXProject "Hg_Vrm_Japan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B669F91A07418200053336;
+			productRefGroup = 18B66A031A07418200053336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B66A011A07418200053336 /* Hg_Vrm_Japan */,
+				18B66A1F1A07418200053336 /* Hg_Vrm_JapanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B66A001A07418200053336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B66A191A07418200053336 /* Main.storyboard in Resources */,
+				18B66A1B1A07418200053336 /* Images.xcassets in Resources */,
+				18B66A111A07418200053336 /* Hg_Vrm_Japan-Info.plist in Resources */,
+				18B66A131A07418200053336 /* Hg_Vrm_Japan-Prefix.pch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B66A1E1A07418200053336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B66A271A07418200053336 /* Hg_Vrm_JapanTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B669FE1A07418200053336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B66A0F1A07418200053336 /* main.m in Sources */,
+				18B66A161A07418200053336 /* HGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B66A1C1A07418200053336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B66A291A07418200053336 /* Hg_Vrm_JapanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18B66A171A07418200053336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B66A181A07418200053336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B66A2A1A07418200053336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		18B66A2B1A07418200053336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B66A2D1A07418200053336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Hg_Vrm_Japan/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18B66A2E1A07418200053336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Hg_Vrm_Japan/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18B66A301A07418200053336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Hg_Vrm_JapanTests/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18B66A311A07418200053336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Hg_Vrm_JapanTests/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B669FD1A07418200053336 /* Build configuration list for PBXProject "Hg_Vrm_Japan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B66A2A1A07418200053336 /* Debug */,
+				18B66A2B1A07418200053336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B66A2C1A07418200053336 /* Build configuration list for PBXNativeTarget "Hg_Vrm_Japan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B66A2D1A07418200053336 /* Debug */,
+				18B66A2E1A07418200053336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18B66A2F1A07418200053336 /* Build configuration list for PBXNativeTarget "Hg_Vrm_JapanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B66A301A07418200053336 /* Debug */,
+				18B66A311A07418200053336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B669FA1A07418200053336 /* Project object */;
+}
