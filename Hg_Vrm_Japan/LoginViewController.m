@@ -9,7 +9,12 @@
 #import "LoginViewController.h"
 #import "HGChooseBrandViewController.h"
 
-@interface LoginViewController ()
+@interface LoginViewController (){
+
+    BOOL _isChecked;
+}
+
+@property (strong, nonatomic) IBOutlet UIImageView *checkImgV;
 
 @end
 
@@ -27,12 +32,24 @@
 
     [super viewDidAppear:animated];
     self.navigationController.navigationBarHidden = YES;
+    _isChecked = NO;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+- (IBAction)isRemenber:(id)sender {
+    
+    _isChecked = !_isChecked;
+    
+    if (_isChecked) {
+        self.checkImgV.hidden = NO;
+    }else{
+    
+        self.checkImgV.hidden = YES;
+    }
 }
 - (IBAction)onLoginAction:(id)sender {
     

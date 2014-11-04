@@ -8,6 +8,7 @@
 
 #import "HGChooseKilometreViewController.h"
 #import "HGKilometreCollectionViewCell.h"
+#import "HGChooseContentViewController.h"
 
 #define HGKilometreCollectionViewCellIdentifier @"HGKilometreCollectionViewCell"
 
@@ -22,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.kilometreItems = [[NSMutableArray alloc] initWithObjects:@"5000.png",@"40000.png",@"75000.png",@"10000.png",@"45000.png",@"80000.png",@"15000.png",@"50005.png",@"85000.png",@"20000.png",@"55000.png",@"90000.png",@"25000.png",@"60000.png",@"95000.png",@"30000.png",@"65000.png",@"100000.png",@"35000.png",@"70000.png",@"10K+.png", nil];
+    self.kilometreItems = [[NSMutableArray alloc] initWithObjects:@"5000.png",@"40000.png",@"75000.png",@"10000.png",@"45000.png",@"80000.png",@"15000.png",@"50000.png",@"85000.png",@"20000.png",@"55000.png",@"90000.png",@"25000.png",@"60000.png",@"95000.png",@"30000.png",@"65000.png",@"100000.png",@"35000.png",@"70000.png",@"10K+.png", nil];
     
     
     UINib *lectureCell = [UINib nibWithNibName:@"HGKilometreCollectionViewCell" bundle:nil];
@@ -35,6 +36,8 @@
 }
 - (IBAction)onNext:(id)sender {
     
+    HGChooseContentViewController *chooseContentVC = [[HGChooseContentViewController alloc] initWithNibName:@"HGChooseContentViewController" bundle:nil];
+    [self.navigationController pushViewController:chooseContentVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -61,10 +64,13 @@
     NSString *imgName = [self.kilometreItems objectAtIndex:indexPath.row];
     cell.kilometreImgV.image = [UIImage imageNamed:imgName];
     
-    if (_seletedIndexPath==indexPath) {
-        cell.kilometreSele.image = [UIImage imageNamed:@"carSeleted.png"];
+    NSUInteger row = [indexPath row];
+    NSUInteger oldRow = [_seletedIndexPath row];
+    
+    if (_seletedIndexPath != nil && row == oldRow) {
+        cell.kilometreSele.image = [UIImage imageNamed:@"checked.png"];
     }else{
-        cell.kilometreSele.image = [UIImage imageNamed:@"carUnSele.png"];
+        cell.kilometreSele.image = nil;
     }
     
     return cell;
@@ -73,10 +79,13 @@
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    if (_seletedIndexPath!=indexPath) {
+    int newRow = [indexPath row];
+    int oldRow = (_seletedIndexPath != nil) ? [_seletedIndexPath row] : -1;
+    
+    if (newRow!=oldRow)  {
         _seletedIndexPath = indexPath;
     }
-    
+    [self.kilometreCollectionView reloadData];
 }
 
 

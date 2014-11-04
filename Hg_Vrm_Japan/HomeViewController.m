@@ -29,6 +29,18 @@
     [super viewDidLoad];
     //self.imageNameArray = [NSArray arrayWithObjects:@"firstPage", @"secondPage", @"thirdPage", @"forthPage", nil];
     
+    
+    self.pageControl = [[StyledPageControl alloc] init];
+    self.pageControl.frame = CGRectMake(360, 700, 300, 25);
+    [self.pageControl setNumberOfPages:4];
+    //[self.pageControl setCurrentPage:2];
+    //[self.pageControl setGapWidth:25];
+    [self.pageControl setPageControlStyle:PageControlStyleThumb];
+    [self.pageControl setThumbImage:[UIImage imageNamed:@"pagecontrol-thumb-normal.png"]];
+    [self.pageControl setSelectedThumbImage:[UIImage imageNamed:@"pagecontrol-thumb-selected.png"]];
+    
+    [self.view addSubview:self.pageControl];
+    
     self.view.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
     self.view.backgroundColor = [UIColor lightGrayColor];
     self.pageScroll.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
@@ -88,5 +100,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - UIScrollViewDelegate
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    
+    int page = scrollView.contentOffset.x / scrollView.frame.size.width ;
+    currentPage = page;
+    self.pageControl.currentPage = page;
+}
+
 
 @end

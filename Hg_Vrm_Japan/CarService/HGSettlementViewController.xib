@@ -57,15 +57,6 @@
                         <action selector="onFront:" destination="-1" eventType="touchUpInside" id="pM4-Yi-ftO"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egv-VJ-o35">
-                    <rect key="frame" x="983" y="578" width="41" height="104"/>
-                    <state key="normal" backgroundImage="rightArrow.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="onNext:" destination="-1" eventType="touchUpInside" id="UjI-5s-UoQ"/>
-                    </connections>
-                </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mHR-T5-Y4p">
                     <rect key="frame" x="120" y="160" width="240" height="200"/>
                 </imageView>
@@ -232,6 +223,15 @@
                     </subviews>
                     <color key="backgroundColor" red="0.13725490196078433" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egv-VJ-o35">
+                    <rect key="frame" x="983" y="578" width="41" height="104"/>
+                    <state key="normal" backgroundImage="rightArrow.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onNext:" destination="-1" eventType="touchUpInside" id="UjI-5s-UoQ"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>

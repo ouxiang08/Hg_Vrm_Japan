@@ -26,7 +26,7 @@
     [super viewDidLoad];
     self.carTypeItems = [[NSMutableArray alloc] init];
     
-    for (int i=0; i<12; i++) {
+    for (int i=1; i<=12; i++) {
         [self.carTypeItems addObject:[NSString stringWithFormat:@"type%d.png",i]];
     }
     
@@ -65,7 +65,10 @@
     NSString *imgName = [self.carTypeItems objectAtIndex:indexPath.row];
     cell.carTypeImgV.image = [UIImage imageNamed:imgName];
     
-    if (_selectedIndexPath==indexPath) {
+    NSUInteger row = [indexPath row];
+    NSUInteger oldRow = [_selectedIndexPath row];
+    
+    if (_selectedIndexPath != nil && row == oldRow) {
         cell.carSelImgV.image = [UIImage imageNamed:@"carSeleted.png"];
     }else{
     
@@ -78,9 +81,14 @@
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    if (indexPath!=_selectedIndexPath) {
+    int newRow = [indexPath row];
+    int oldRow = (_selectedIndexPath != nil) ? [_selectedIndexPath row] : -1;
+    
+    if (newRow!=oldRow)  {
         _selectedIndexPath = indexPath;
     }
+    
+    [self.carTypeCollectionView reloadData];
 }
 
 /*

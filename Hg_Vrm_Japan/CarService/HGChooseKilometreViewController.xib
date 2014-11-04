@@ -60,7 +60,7 @@
             </constraints>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
-            <point key="canvasLocation" x="405" y="338"/>
+            <point key="canvasLocation" x="443" y="133"/>
         </view>
     </objects>
     <resources>

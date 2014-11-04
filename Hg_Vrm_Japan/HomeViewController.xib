@@ -18,6 +18,9 @@
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyE-Nw-TO1">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Kt1-HG-7y5"/>
+                    </connections>
                 </scrollView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

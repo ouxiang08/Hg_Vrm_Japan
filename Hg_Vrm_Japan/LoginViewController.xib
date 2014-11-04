@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
             <connections>
+                <outlet property="checkImgV" destination="2LW-q8-Pba" id="gOq-0v-sjq"/>
                 <outlet property="view" destination="iN0-l3-epB" id="0Qv-iM-nwr"/>
             </connections>
         </placeholder>
@@ -18,9 +19,6 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loginBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="AIX-cE-y4Y">
                     <rect key="frame" x="0.0" y="-8" width="1024" height="768"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkLogin.png" translatesAutoresizingMaskIntoConstraints="NO" id="JLT-Rk-exV">
-                    <rect key="frame" x="163" y="623" width="229" height="30"/>
-                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="siw-KI-VlH">
                     <rect key="frame" x="210" y="671" width="610" height="41"/>
                     <state key="normal" backgroundImage="loginBtn.png">
@@ -30,6 +28,18 @@
                         <action selector="onLoginAction:" destination="-1" eventType="touchUpInside" id="3Jb-wD-Yuy"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGh-rt-ll2">
+                    <rect key="frame" x="163" y="623" width="229" height="30"/>
+                    <state key="normal" backgroundImage="checkLogin.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="isRemenber:" destination="-1" eventType="touchUpInside" id="EFU-HC-s40"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked.png" translatesAutoresizingMaskIntoConstraints="NO" id="2LW-q8-Pba">
+                    <rect key="frame" x="163" y="623" width="30" height="30"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -39,6 +49,7 @@
     </objects>
     <resources>
         <image name="checkLogin.png" width="274" height="35"/>
+        <image name="checked.png" width="35" height="35"/>
         <image name="loginBgImg.png" width="2048" height="1536"/>
         <image name="loginBtn.png" width="1217" height="99"/>
     </resources>

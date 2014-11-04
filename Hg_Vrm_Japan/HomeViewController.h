@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StyledPageControl.h"
 
 @interface HomeViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIScrollView *pageScroll;
-
-@property(nonatomic, strong) NSArray *imageNameArray;
+@property (strong, nonatomic) NSArray *imageNameArray;
+@property (strong, nonatomic) StyledPageControl *pageControl;
 
 @end
 

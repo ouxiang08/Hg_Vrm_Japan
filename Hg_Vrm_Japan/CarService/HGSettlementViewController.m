@@ -7,6 +7,7 @@
 //
 
 #import "HGSettlementViewController.h"
+#import "HGCustomerInfoViewController.h"
 
 @interface HGSettlementViewController ()
 
@@ -30,6 +31,8 @@
 }
 - (IBAction)onNext:(id)sender {
     
+    HGCustomerInfoViewController *customerInfoVC = [[HGCustomerInfoViewController alloc] initWithNibName:@"HGCustomerInfoViewController" bundle:nil];
+    [self.navigationController pushViewController:customerInfoVC animated:YES];
 }
 
 /*

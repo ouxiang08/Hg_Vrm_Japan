@@ -17,32 +17,38 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jzT-NX-EgP">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contentBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="jzT-NX-EgP">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jW-4M-3fB">
-                    <rect key="frame" x="0.0" y="332" width="41" height="104"/>
+                    <rect key="frame" x="0.0" y="437" width="41" height="104"/>
                     <state key="normal" backgroundImage="leftArrow.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onFront:" destination="-1" eventType="touchUpInside" id="KMP-Ph-SSA"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Vm-pK-bBb">
-                    <rect key="frame" x="988" y="332" width="41" height="104"/>
+                    <rect key="frame" x="988" y="437" width="41" height="104"/>
                     <state key="normal" backgroundImage="rightArrow.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onNext:" destination="-1" eventType="touchUpInside" id="ccl-lW-F8X"/>
+                    </connections>
                 </button>
                 <tableView clipsSubviews="YES" tag="10001" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="dFv-UR-sj2">
-                    <rect key="frame" x="173" y="100" width="320" height="568"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <rect key="frame" x="173" y="227" width="320" height="314"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="Mgx-lB-RBB"/>
                         <outlet property="delegate" destination="-1" id="ovR-pZ-8GF"/>
                     </connections>
                 </tableView>
                 <tableView clipsSubviews="YES" tag="10002" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="pN2-Lv-8ni">
-                    <rect key="frame" x="531" y="100" width="320" height="568"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <rect key="frame" x="531" y="227" width="320" height="314"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="HdQ-Ok-slp"/>
                         <outlet property="delegate" destination="-1" id="pCu-Y3-H0d"/>
@@ -55,6 +61,7 @@
         </view>
     </objects>
     <resources>
+        <image name="contentBgImg.png" width="2048" height="1536"/>
         <image name="leftArrow.png" width="41" height="103"/>
         <image name="rightArrow.png" width="41" height="103"/>
     </resources>

@@ -50,6 +50,14 @@
                         <action selector="onNext:" destination="-1" eventType="touchUpInside" id="XqP-Qu-g7J"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chooseTyp.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y4e-vo-IBf">
+                    <rect key="frame" x="0.0" y="599" width="1024" height="100"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" background="searchBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="gA9-MG-V8X">
+                    <rect key="frame" x="440" y="626" width="500" height="45"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -63,8 +71,10 @@
         </view>
     </objects>
     <resources>
+        <image name="chooseTyp.png" width="2048" height="207"/>
         <image name="leftArrow.png" width="41" height="103"/>
         <image name="rightArrow.png" width="41" height="103"/>
+        <image name="searchBar.png" width="1013" height="90"/>
         <image name="typeBgImg.png" width="2048" height="1536"/>
     </resources>
 </document>

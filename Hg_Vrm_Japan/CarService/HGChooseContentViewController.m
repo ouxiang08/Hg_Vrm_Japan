@@ -7,10 +7,11 @@
 //
 
 #import "HGChooseContentViewController.h"
+#import "HGSettlementViewController.h"
 
 @interface HGChooseContentViewController (){
 
-    NSIndexPath *_seletedIndexPath;
+    NSIndexPath *_selectedIndexPath;
 }
 
 @end
@@ -27,6 +28,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)onFront:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+- (IBAction)onNext:(id)sender {
+    
+    HGSettlementViewController *settlementVC = [[HGSettlementViewController alloc] initWithNibName:@"HGSettlementViewController" bundle:nil];
+    [self.navigationController pushViewController:settlementVC animated:YES];
+}
+
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -45,6 +57,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell==nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell.backgroundColor = [UIColor colorWithRed:51/255.0f green:51/255.0f blue:51/255.0f alpha:0.95];
+        cell.textLabel.textColor = [UIColor lightGrayColor];
     }
     
     NSString *contentStr = nil;
@@ -56,11 +70,14 @@
     
     cell.textLabel.text = contentStr;
     
-    if (_seletedIndexPath==indexPath) {
+    NSUInteger row = [indexPath row];
+    NSUInteger oldRow = [_selectedIndexPath row];
+    
+    if (_selectedIndexPath != nil && row == oldRow){
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
-        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"carSeleted.png"]];
+        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"conUnsel.png"]];
     }else{
-        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"carUnSele.png"]];
+        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"conSel.png"]];
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
 
@@ -87,22 +104,23 @@
 
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     
-    if (_seletedIndexPath!=indexPath) {
-        _seletedIndexPath = indexPath;
+    int newRow = [indexPath row];
+    int oldRow = (_selectedIndexPath != nil) ? [_selectedIndexPath row] : -1;
+    
+    if (newRow!=oldRow)  {
+        _selectedIndexPath = indexPath;
     }
     
     if (cell.accessoryType == UITableViewCellAccessoryNone){
-        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"carSeleted.png"]];
+        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"conunsel.png"]];
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     }else{
-        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"carUnSele.png"]];
+        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"conUnsSel.png"]];
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
 }
-
-
 
 @end
