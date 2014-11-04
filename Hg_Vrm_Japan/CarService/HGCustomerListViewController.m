@@ -38,7 +38,8 @@
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 
-    return self.personItems.count;
+    //return self.personItems.count;
+    return 10;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
@@ -46,6 +47,7 @@
     
     if (cell==nil) {
         cell = [[HGPersonTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:HGPersonTableViewCellIdentifier];
+        //cell.backgroundColor = [UIColor colorWithRed:51/255.0f green:51/255.0f blue:51/255.0f alpha:0.95];
     }
     
     return cell;

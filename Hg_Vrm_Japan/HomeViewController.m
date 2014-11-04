@@ -41,9 +41,9 @@
     
     [self.view addSubview:self.pageControl];
     
-    self.view.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
+    //self.view.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
     self.view.backgroundColor = [UIColor lightGrayColor];
-    self.pageScroll.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
+    //self.pageScroll.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
     
     self.imageNameArray = [NSArray arrayWithObjects:@"thirdPage", @"thirdPage", @"thirdPage", @"thirdPage", nil];
     //self.pageScroll.contentSize = CGSizeMake(self.view.width*self.imageNameArray.count, self.view.height);

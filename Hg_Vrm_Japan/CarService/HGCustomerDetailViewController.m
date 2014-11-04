@@ -24,6 +24,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)onFront:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+- (IBAction)onNext:(id)sender {
+    
+    
+}
+
+
 /*
 #pragma mark - Navigation
 

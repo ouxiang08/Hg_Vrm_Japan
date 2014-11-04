@@ -7,6 +7,7 @@
 //
 
 #import "HGCustomerInfoViewController.h"
+#import "HGCustomerListViewController.h"
 
 @interface HGCustomerInfoViewController ()
 
@@ -33,10 +34,12 @@
     
 }
 - (IBAction)onFront:(id)sender {
-    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 - (IBAction)onNext:(id)sender {
     
+    HGCustomerListViewController *customerListVC = [[HGCustomerListViewController alloc] initWithNibName:@"HGCustomerListViewController" bundle:nil];
+    [self.navigationController pushViewController:customerListVC animated:YES];
 }
 
 /*

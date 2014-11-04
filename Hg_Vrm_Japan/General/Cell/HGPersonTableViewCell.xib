@@ -43,6 +43,7 @@
                     </label>
                 </subviews>
             </tableViewCellContentView>
+            <color key="backgroundColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
             <point key="canvasLocation" x="401" y="270"/>
         </tableViewCell>
     </objects>

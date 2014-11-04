@@ -112,15 +112,14 @@
     }
     
     if (cell.accessoryType == UITableViewCellAccessoryNone){
-        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"conunsel.png"]];
+        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"conUnsel.png"]];
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     }else{
-        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"conUnsSel.png"]];
+        cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"conSel.png"]];
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
 }
 
 @end
