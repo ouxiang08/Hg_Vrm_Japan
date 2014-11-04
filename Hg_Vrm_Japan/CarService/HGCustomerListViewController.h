@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HGCustomerListViewController : UIViewController
+@interface HGCustomerListViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UITableView *personTableView;
+@property (strong, nonatomic) NSMutableArray *personItems;
+
 
 @end

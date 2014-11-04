@@ -80,7 +80,7 @@
                     <rect key="frame" x="704" y="0.0" width="320" height="768"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="4VE-Yx-WGP">
-                            <rect key="frame" x="25" y="60" width="270" height="50"/>
+                            <rect key="frame" x="25" y="70" width="270" height="50"/>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Miy-ua-CF1">
                             <rect key="frame" x="0.0" y="199" width="320" height="1"/>

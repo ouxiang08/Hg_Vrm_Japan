@@ -23,6 +23,21 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)onHome:(id)sender {
+    
+}
+- (IBAction)onSetting:(id)sender {
+    
+}
+- (IBAction)onCloud:(id)sender {
+    
+}
+- (IBAction)onFront:(id)sender {
+    
+}
+- (IBAction)onNext:(id)sender {
+    
+}
 
 /*
 #pragma mark - Navigation

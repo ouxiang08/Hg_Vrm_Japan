@@ -7,21 +7,61 @@
 //
 
 #import "HGCustomerListViewController.h"
+#import "HGCustomerDetailViewController.h"
+#import "HGPersonTableViewCell.h"
 
-@interface HGCustomerListViewController ()
+#define HGPersonTableViewCellIdentifier @"HGPersonTableViewCell"
+
+@interface HGCustomerListViewController (){
+
+    NSIndexPath *_selectedIndexPath;
+}
 
 @end
 
 @implementation HGCustomerListViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    UINib *personCell = [UINib nibWithNibName:@"HGPersonTableViewCell" bundle:nil];
+    [self.personTableView registerNib:personCell forCellReuseIdentifier:HGPersonTableViewCellIdentifier];
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark - UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+
+    return self.personItems.count;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    HGPersonTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:HGPersonTableViewCellIdentifier];
+    
+    if (cell==nil) {
+        cell = [[HGPersonTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:HGPersonTableViewCellIdentifier];
+    }
+    
+    return cell;
+}
+
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    if (_selectedIndexPath!=indexPath) {
+        _selectedIndexPath = indexPath;
+    }
+    
+    HGCustomerDetailViewController *customerDetailVC = [[HGCustomerDetailViewController alloc] init];
+    [self.navigationController pushViewController:customerDetailVC animated:YES];
 }
 
 /*

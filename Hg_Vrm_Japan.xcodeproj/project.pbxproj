@@ -33,6 +33,20 @@
 		1852B1441A08697B00BAF330 /* cailiao2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1401A08697B00BAF330 /* cailiao2.jpg */; };
 		1852B1451A08697B00BAF330 /* cailiao3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1411A08697B00BAF330 /* cailiao3.jpg */; };
 		1852B1461A08697B00BAF330 /* cailiao4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1421A08697B00BAF330 /* cailiao4.jpg */; };
+		1852B1511A087CDC00BAF330 /* address.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1471A087CDC00BAF330 /* address.png */; };
+		1852B1521A087CDC00BAF330 /* bannerView.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1481A087CDC00BAF330 /* bannerView.png */; };
+		1852B1531A087CDC00BAF330 /* birthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1491A087CDC00BAF330 /* birthday.png */; };
+		1852B1541A087CDC00BAF330 /* camia.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B14A1A087CDC00BAF330 /* camia.png */; };
+		1852B1551A087CDC00BAF330 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B14B1A087CDC00BAF330 /* cloud.png */; };
+		1852B1561A087CDC00BAF330 /* divial.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B14C1A087CDC00BAF330 /* divial.png */; };
+		1852B1571A087CDC00BAF330 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B14D1A087CDC00BAF330 /* email.png */; };
+		1852B1581A087CDC00BAF330 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B14E1A087CDC00BAF330 /* home.png */; };
+		1852B1591A087CDC00BAF330 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B14F1A087CDC00BAF330 /* phone.png */; };
+		1852B15A1A087CDC00BAF330 /* puls.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1501A087CDC00BAF330 /* puls.png */; };
+		1852B15D1A08A50300BAF330 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B15B1A08A50300BAF330 /* person.png */; };
+		1852B15E1A08A50300BAF330 /* searchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B15C1A08A50300BAF330 /* searchIcon.png */; };
+		1852B1621A08A63200BAF330 /* HGPersonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852B1601A08A63200BAF330 /* HGPersonTableViewCell.m */; };
+		1852B1631A08A63200BAF330 /* HGPersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1611A08A63200BAF330 /* HGPersonTableViewCell.xib */; };
 		18B66A061A07418200053336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A051A07418200053336 /* Foundation.framework */; };
 		18B66A081A07418200053336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A071A07418200053336 /* CoreGraphics.framework */; };
 		18B66A0A1A07418200053336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A091A07418200053336 /* UIKit.framework */; };
@@ -133,6 +147,21 @@
 		1852B1401A08697B00BAF330 /* cailiao2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cailiao2.jpg; sourceTree = "<group>"; };
 		1852B1411A08697B00BAF330 /* cailiao3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cailiao3.jpg; sourceTree = "<group>"; };
 		1852B1421A08697B00BAF330 /* cailiao4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cailiao4.jpg; sourceTree = "<group>"; };
+		1852B1471A087CDC00BAF330 /* address.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = address.png; sourceTree = "<group>"; };
+		1852B1481A087CDC00BAF330 /* bannerView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerView.png; sourceTree = "<group>"; };
+		1852B1491A087CDC00BAF330 /* birthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birthday.png; sourceTree = "<group>"; };
+		1852B14A1A087CDC00BAF330 /* camia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camia.png; sourceTree = "<group>"; };
+		1852B14B1A087CDC00BAF330 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		1852B14C1A087CDC00BAF330 /* divial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divial.png; sourceTree = "<group>"; };
+		1852B14D1A087CDC00BAF330 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		1852B14E1A087CDC00BAF330 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		1852B14F1A087CDC00BAF330 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		1852B1501A087CDC00BAF330 /* puls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puls.png; sourceTree = "<group>"; };
+		1852B15B1A08A50300BAF330 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		1852B15C1A08A50300BAF330 /* searchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchIcon.png; sourceTree = "<group>"; };
+		1852B15F1A08A63200BAF330 /* HGPersonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGPersonTableViewCell.h; sourceTree = "<group>"; };
+		1852B1601A08A63200BAF330 /* HGPersonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPersonTableViewCell.m; sourceTree = "<group>"; };
+		1852B1611A08A63200BAF330 /* HGPersonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGPersonTableViewCell.xib; sourceTree = "<group>"; };
 		18B66A021A07418200053336 /* Hg_Vrm_Japan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hg_Vrm_Japan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B66A051A07418200053336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18B66A071A07418200053336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -400,6 +429,18 @@
 		18B66A4B1A074D5200053336 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1852B15B1A08A50300BAF330 /* person.png */,
+				1852B15C1A08A50300BAF330 /* searchIcon.png */,
+				1852B1471A087CDC00BAF330 /* address.png */,
+				1852B1481A087CDC00BAF330 /* bannerView.png */,
+				1852B1491A087CDC00BAF330 /* birthday.png */,
+				1852B14A1A087CDC00BAF330 /* camia.png */,
+				1852B14B1A087CDC00BAF330 /* cloud.png */,
+				1852B14C1A087CDC00BAF330 /* divial.png */,
+				1852B14D1A087CDC00BAF330 /* email.png */,
+				1852B14E1A087CDC00BAF330 /* home.png */,
+				1852B14F1A087CDC00BAF330 /* phone.png */,
+				1852B1501A087CDC00BAF330 /* puls.png */,
 				1852B1121A0863AA00BAF330 /* Kilometre */,
 				18B66AB01A077D9300053336 /* Type */,
 				18B66A961A077AC800053336 /* leftArrow@2x.png */,
@@ -503,6 +544,9 @@
 				18C4C05F1A0793DD0077026E /* HGKilometreCollectionViewCell.h */,
 				18C4C0601A0793DD0077026E /* HGKilometreCollectionViewCell.m */,
 				18C4C0611A0793DD0077026E /* HGKilometreCollectionViewCell.xib */,
+				1852B15F1A08A63200BAF330 /* HGPersonTableViewCell.h */,
+				1852B1601A08A63200BAF330 /* HGPersonTableViewCell.m */,
+				1852B1611A08A63200BAF330 /* HGPersonTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -587,6 +631,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B66AD31A077D9300053336 /* type10.png in Resources */,
+				1852B1541A087CDC00BAF330 /* camia.png in Resources */,
 				1852B1381A0863AA00BAF330 /* 75000.png in Resources */,
 				1852B13E1A08684200BAF330 /* logo.png in Resources */,
 				18B66AD81A077D9300053336 /* type4.png in Resources */,
@@ -615,12 +660,16 @@
 				18B66AD21A077D9300053336 /* type1.png in Resources */,
 				18B66AD41A077D9300053336 /* type11.png in Resources */,
 				18B66A111A07418200053336 /* Hg_Vrm_Japan-Info.plist in Resources */,
+				1852B1561A087CDC00BAF330 /* divial.png in Resources */,
+				1852B15A1A087CDC00BAF330 /* puls.png in Resources */,
 				1852B12B1A0863AA00BAF330 /* 15000.png in Resources */,
 				1852B1361A0863AA00BAF330 /* 65000.png in Resources */,
 				1852B1351A0863AA00BAF330 /* 60000.png in Resources */,
 				18B66A911A076F9C00053336 /* brandImg.png in Resources */,
 				1852B12E1A0863AA00BAF330 /* 30000.png in Resources */,
+				1852B1521A087CDC00BAF330 /* bannerView.png in Resources */,
 				18B66A5F1A074D5200053336 /* unSelected.png in Resources */,
+				1852B1531A087CDC00BAF330 /* birthday.png in Resources */,
 				6E60801D1A07CA1B002112A1 /* HGCustomerDetailViewController.xib in Resources */,
 				18B66A5D1A074D5200053336 /* selected.png in Resources */,
 				18B66A781A0761CB00053336 /* HGChooseBrandViewController.xib in Resources */,
@@ -637,16 +686,22 @@
 				18B66AD51A077D9300053336 /* type12.png in Resources */,
 				18B66A821A07623500053336 /* HGChooseKilometreViewController.xib in Resources */,
 				1852B1281A0863AA00BAF330 /* 10000.png in Resources */,
+				1852B1571A087CDC00BAF330 /* email.png in Resources */,
+				1852B1591A087CDC00BAF330 /* phone.png in Resources */,
+				1852B1631A08A63200BAF330 /* HGPersonTableViewCell.xib in Resources */,
 				18C4C05E1A0790D40077026E /* carUnSele.png in Resources */,
 				18B66A951A07798600053336 /* checkLogin@2x.png in Resources */,
 				6E6080221A07CA48002112A1 /* HGCustomerInfoViewController.xib in Resources */,
 				18B66A7D1A0761E700053336 /* HGChooseTypeViewController.xib in Resources */,
 				1852B12A1A0863AA00BAF330 /* 10K+.png in Resources */,
 				18B66A8F1A076CE800053336 /* settlementBgImg.png in Resources */,
+				1852B1581A087CDC00BAF330 /* home.png in Resources */,
+				1852B1551A087CDC00BAF330 /* cloud.png in Resources */,
 				1852B13B1A0863AA00BAF330 /* 90000.png in Resources */,
 				18C4C0631A0793DD0077026E /* HGKilometreCollectionViewCell.xib in Resources */,
 				1852B12C1A0863AA00BAF330 /* 2000.png in Resources */,
 				18B66A841A07645C00053336 /* brandBgImg.png in Resources */,
+				1852B15E1A08A50300BAF330 /* searchIcon.png in Resources */,
 				6EB82E821A07C1CB00E9CFAD /* HGChooseContentViewController.xib in Resources */,
 				18B66A981A077AC800053336 /* leftArrow@2x.png in Resources */,
 				18C4C05D1A0790D40077026E /* carSeleted.png in Resources */,
@@ -654,6 +709,8 @@
 				1852B1431A08697B00BAF330 /* cailiao1.jpg in Resources */,
 				1852B12D1A0863AA00BAF330 /* 25000.png in Resources */,
 				18B66A991A077AC800053336 /* rightArrow@2x.png in Resources */,
+				1852B1511A087CDC00BAF330 /* address.png in Resources */,
+				1852B15D1A08A50300BAF330 /* person.png in Resources */,
 				18B66AD91A077D9300053336 /* type5.png in Resources */,
 				1852B1441A08697B00BAF330 /* cailiao2.jpg in Resources */,
 			);
@@ -677,6 +734,7 @@
 				18B66A5B1A074D5200053336 /* StyledPageControl.m in Sources */,
 				18B66A561A074D5200053336 /* NSArray+Addition.m in Sources */,
 				18B66A581A074D5200053336 /* UIImage+Additions.m in Sources */,
+				1852B1621A08A63200BAF330 /* HGPersonTableViewCell.m in Sources */,
 				18B66A5A1A074D5200053336 /* UIView+Extensions.m in Sources */,
 				6E60801C1A07CA1B002112A1 /* HGCustomerDetailViewController.m in Sources */,
 				18B66A5C1A074D5200053336 /* LoginViewController.m in Sources */,
