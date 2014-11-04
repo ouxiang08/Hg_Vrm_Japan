@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.kilometreItems = [[NSMutableArray alloc] init];
+    self.kilometreItems = [[NSMutableArray alloc] initWithObjects:@"5000.png",@"40000.png",@"75000.png",@"10000.png",@"45000.png",@"80000.png",@"15000.png",@"50005.png",@"85000.png",@"20000.png",@"55000.png",@"90000.png",@"25000.png",@"60000.png",@"95000.png",@"30000.png",@"65000.png",@"100000.png",@"35000.png",@"70000.png",@"10K+.png", nil];
     
     
     UINib *lectureCell = [UINib nibWithNibName:@"HGKilometreCollectionViewCell" bundle:nil];

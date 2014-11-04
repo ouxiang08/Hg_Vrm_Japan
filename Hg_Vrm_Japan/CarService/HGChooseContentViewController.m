@@ -69,6 +69,20 @@
 
 
 #pragma mark - UITableViewDelegate
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+
+    UIView *headerView = [[UIView alloc] init];
+    headerView.frame = CGRectMake(0, 0, 320, 50);
+    headerView.backgroundColor = [UIColor redColor];
+    return headerView;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+
+    return 50;
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
