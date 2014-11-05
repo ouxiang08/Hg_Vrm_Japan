@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18B66A1F1A07418200053336"
-               BuildableName = "Hg_Vrm_JapanTests.xctest"
-               BlueprintName = "Hg_Vrm_JapanTests"
-               ReferencedContainer = "container:Hg_Vrm_Japan.xcodeproj">
+               BuildableName = "VRM_JAPANTests.xctest"
+               BlueprintName = "VRM_JAPANTests"
+               ReferencedContainer = "container:VRM_JAPAN.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18B66A1F1A07418200053336"
-               BuildableName = "Hg_Vrm_JapanTests.xctest"
-               BlueprintName = "Hg_Vrm_JapanTests"
-               ReferencedContainer = "container:Hg_Vrm_Japan.xcodeproj">
+               BuildableName = "VRM_JAPANTests.xctest"
+               BlueprintName = "VRM_JAPANTests"
+               ReferencedContainer = "container:VRM_JAPAN.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18B66A1F1A07418200053336"
-            BuildableName = "Hg_Vrm_JapanTests.xctest"
-            BlueprintName = "Hg_Vrm_JapanTests"
-            ReferencedContainer = "container:Hg_Vrm_Japan.xcodeproj">
+            BuildableName = "VRM_JAPANTests.xctest"
+            BlueprintName = "VRM_JAPANTests"
+            ReferencedContainer = "container:VRM_JAPAN.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18B66A1F1A07418200053336"
-            BuildableName = "Hg_Vrm_JapanTests.xctest"
-            BlueprintName = "Hg_Vrm_JapanTests"
-            ReferencedContainer = "container:Hg_Vrm_Japan.xcodeproj">
+            BuildableName = "VRM_JAPANTests.xctest"
+            BlueprintName = "VRM_JAPANTests"
+            ReferencedContainer = "container:VRM_JAPAN.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18B66A1F1A07418200053336"
-            BuildableName = "Hg_Vrm_JapanTests.xctest"
-            BlueprintName = "Hg_Vrm_JapanTests"
-            ReferencedContainer = "container:Hg_Vrm_Japan.xcodeproj">
+            BuildableName = "VRM_JAPANTests.xctest"
+            BlueprintName = "VRM_JAPANTests"
+            ReferencedContainer = "container:VRM_JAPAN.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

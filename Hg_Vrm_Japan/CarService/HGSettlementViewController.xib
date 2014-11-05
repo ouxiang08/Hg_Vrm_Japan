@@ -18,31 +18,37 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settlementBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="jol-p6-zwh">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9nU-ce-ofY">
-                    <rect key="frame" x="386" y="386" width="240" height="200"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settleBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="YZh-i8-xqY">
+                    <rect key="frame" x="386" y="360" width="234" height="216"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settleBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="sv8-WH-WYm">
+                    <rect key="frame" x="120" y="360" width="234" height="216"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settleBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xwe-vX-OcW">
+                    <rect key="frame" x="386" y="115" width="234" height="216"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WCB-HL-hRq">
+                    <rect key="frame" x="422" y="115" width="160" height="169"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settleBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="53x-XA-Xly">
+                    <rect key="frame" x="120" y="114" width="234" height="216"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="燃油添加剂" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpv-J5-yxo">
-                    <rect key="frame" x="386" y="546" width="240" height="40"/>
+                    <rect key="frame" x="386" y="538" width="234" height="40"/>
                     <color key="backgroundColor" red="0.13725490200000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mNa-uY-y4T">
-                    <rect key="frame" x="120" y="386" width="240" height="200"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="机滤" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7P-Jh-KLr">
-                    <rect key="frame" x="120" y="546" width="240" height="40"/>
+                    <rect key="frame" x="120" y="536" width="234" height="40"/>
                     <color key="backgroundColor" red="0.13725490200000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Quk-Nc-Bmh">
-                    <rect key="frame" x="386" y="160" width="240" height="200"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="机油" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAC-HL-TGQ">
-                    <rect key="frame" x="386" y="320" width="240" height="40"/>
+                    <rect key="frame" x="386" y="291" width="234" height="40"/>
                     <color key="backgroundColor" red="0.13725490200000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -58,10 +64,10 @@
                     </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mHR-T5-Y4p">
-                    <rect key="frame" x="120" y="160" width="240" height="200"/>
+                    <rect key="frame" x="157" y="114" width="160" height="169"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="全车天窗，天窗润滑" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puQ-Ed-AI9">
-                    <rect key="frame" x="120" y="320" width="240" height="40"/>
+                    <rect key="frame" x="120" y="291" width="234" height="40"/>
                     <color key="backgroundColor" red="0.13725490200000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -232,6 +238,12 @@
                         <action selector="onNext:" destination="-1" eventType="touchUpInside" id="UjI-5s-UoQ"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Yo1-H4-SIp">
+                    <rect key="frame" x="157" y="360" width="160" height="169"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xvo-ip-T1n">
+                    <rect key="frame" x="423" y="360" width="160" height="169"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -250,8 +262,9 @@
         <image name="cailiao3.jpg" width="380" height="285"/>
         <image name="cailiao4.jpg" width="300" height="300"/>
         <image name="leftArrow.png" width="41" height="103"/>
-        <image name="logo.png" width="135" height="26"/>
+        <image name="logo.png" width="519" height="103"/>
         <image name="rightArrow.png" width="41" height="103"/>
+        <image name="settleBgImg.png" width="117" height="108"/>
         <image name="settlementBgImg.png" width="2048" height="1536"/>
     </resources>
 </document>

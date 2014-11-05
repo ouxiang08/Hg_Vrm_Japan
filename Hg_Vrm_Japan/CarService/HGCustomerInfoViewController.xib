@@ -7,6 +7,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HGCustomerInfoViewController">
             <connections>
+                <outlet property="carImgV" destination="xh9-nc-izs" id="EXR-3U-piu"/>
+                <outlet property="carPhoto" destination="oas-MZ-59e" id="amw-hm-JA8"/>
+                <outlet property="personImgV" destination="1By-7E-I34" id="coX-xR-qO9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,14 +18,14 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1By-7E-I34">
+                <imageView userInteractionEnabled="NO" tag="1000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bigPeoplePhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="1By-7E-I34">
                     <rect key="frame" x="80" y="24" width="152" height="190"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cailiao1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oas-MZ-59e">
+                <imageView userInteractionEnabled="NO" tag="2000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="carPhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="oas-MZ-59e">
                     <rect key="frame" x="651" y="24" width="350" height="568"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bannerView.png" translatesAutoresizingMaskIntoConstraints="NO" id="C5h-WZ-041">
-                    <rect key="frame" x="80" y="213" width="560" height="50"/>
+                    <rect key="frame" x="80" y="214" width="560" height="50"/>
                 </imageView>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ohF-Rn-UHb">
                     <rect key="frame" x="234" y="272" width="406" height="45"/>
@@ -30,12 +33,6 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="divial.png" translatesAutoresizingMaskIntoConstraints="NO" id="pfS-Er-79c">
-                    <rect key="frame" x="601" y="280" width="30" height="30"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="puls.png" translatesAutoresizingMaskIntoConstraints="NO" id="8BH-LG-ehf">
-                    <rect key="frame" x="564" y="280" width="30" height="30"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="姓氏" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rib-YL-qfb">
                     <rect key="frame" x="164" y="272" width="62" height="45"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -48,12 +45,6 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="divial.png" translatesAutoresizingMaskIntoConstraints="NO" id="be4-JT-Thj">
-                    <rect key="frame" x="601" y="336" width="30" height="30"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="puls.png" translatesAutoresizingMaskIntoConstraints="NO" id="hM7-tx-fZI">
-                    <rect key="frame" x="564" y="336" width="30" height="30"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名字" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9KO-E9-S6o">
                     <rect key="frame" x="164" y="328" width="62" height="45"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -66,20 +57,14 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="divial.png" translatesAutoresizingMaskIntoConstraints="NO" id="smc-08-fbd">
-                    <rect key="frame" x="601" y="390" width="30" height="30"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="puls.png" translatesAutoresizingMaskIntoConstraints="NO" id="k3P-E2-V0W">
-                    <rect key="frame" x="564" y="390" width="30" height="30"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="电话" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esI-Ts-HlI">
                     <rect key="frame" x="164" y="382" width="62" height="45"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="5zL-Rv-vFM">
-                    <rect key="frame" x="94" y="390" width="50" height="30"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dianhua.png" translatesAutoresizingMaskIntoConstraints="NO" id="5zL-Rv-vFM">
+                    <rect key="frame" x="102" y="386" width="35" height="38"/>
                 </imageView>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pyd-GH-i0Z">
                     <rect key="frame" x="234" y="438" width="406" height="45"/>
@@ -87,20 +72,14 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="divial.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gcj-BR-RGr">
-                    <rect key="frame" x="601" y="446" width="30" height="30"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="puls.png" translatesAutoresizingMaskIntoConstraints="NO" id="n2O-nX-5oB">
-                    <rect key="frame" x="564" y="446" width="30" height="30"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="邮箱" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Uv-ip-kX1">
                     <rect key="frame" x="164" y="438" width="62" height="45"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="email.png" translatesAutoresizingMaskIntoConstraints="NO" id="ucx-uE-pvb">
-                    <rect key="frame" x="94" y="446" width="50" height="30"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="youxiang.png" translatesAutoresizingMaskIntoConstraints="NO" id="ucx-uE-pvb">
+                    <rect key="frame" x="102" y="442" width="35" height="38"/>
                 </imageView>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ksi-Ew-Qdp">
                     <rect key="frame" x="234" y="493" width="406" height="45"/>
@@ -108,20 +87,14 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="divial.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bv9-TX-G7s">
-                    <rect key="frame" x="601" y="501" width="30" height="30"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="puls.png" translatesAutoresizingMaskIntoConstraints="NO" id="bXJ-4x-u1I">
-                    <rect key="frame" x="564" y="501" width="30" height="30"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="生日" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBE-bw-lJq">
                     <rect key="frame" x="164" y="493" width="62" height="45"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="birthday.png" translatesAutoresizingMaskIntoConstraints="NO" id="nGE-yQ-RGj">
-                    <rect key="frame" x="94" y="501" width="50" height="30"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shengri.png" translatesAutoresizingMaskIntoConstraints="NO" id="nGE-yQ-RGj">
+                    <rect key="frame" x="102" y="497" width="35" height="38"/>
                 </imageView>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zs7-S1-J5J">
                     <rect key="frame" x="234" y="550" width="406" height="45"/>
@@ -129,20 +102,14 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="divial.png" translatesAutoresizingMaskIntoConstraints="NO" id="D2Z-2d-VkX">
-                    <rect key="frame" x="601" y="558" width="30" height="30"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="puls.png" translatesAutoresizingMaskIntoConstraints="NO" id="gFs-N4-m24">
-                    <rect key="frame" x="564" y="558" width="30" height="30"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="地址" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zoj-Sn-GYQ">
                     <rect key="frame" x="164" y="550" width="62" height="45"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="address.png" translatesAutoresizingMaskIntoConstraints="NO" id="YxI-2S-QPB">
-                    <rect key="frame" x="94" y="558" width="50" height="30"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dizhi.png" translatesAutoresizingMaskIntoConstraints="NO" id="YxI-2S-QPB">
+                    <rect key="frame" x="102" y="554" width="35" height="38"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QoI-z5-rvo">
                     <rect key="frame" x="0.0" y="628" width="1024" height="100"/>
@@ -157,7 +124,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DD7-IZ-kKE">
-                            <rect key="frame" x="983" y="-2" width="41" height="104"/>
+                            <rect key="frame" x="983" y="0.0" width="41" height="99"/>
                             <state key="normal" backgroundImage="rightArrow.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -191,21 +158,21 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1PD-ix-nTC">
                             <rect key="frame" x="735" y="16" width="75" height="64"/>
-                            <state key="normal" backgroundImage="home.png">
+                            <state key="normal" backgroundImage="setting.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
                                 <action selector="onSetting:" destination="-1" eventType="touchUpInside" id="Lp8-Eo-IIi"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQc-ab-NVw">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQc-ab-NVw">
                             <rect key="frame" x="0.0" y="0.0" width="1024" height="1"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmQ-S5-ktt">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmQ-S5-ktt">
                             <rect key="frame" x="0.0" y="99" width="1024" height="1"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -214,24 +181,29 @@
                         </label>
                     </subviews>
                 </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xiangji.png" translatesAutoresizingMaskIntoConstraints="NO" id="xh9-nc-izs">
+                    <rect key="frame" x="651" y="24" width="50" height="50"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="0.13725490200000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <point key="canvasLocation" x="-23" y="9"/>
         </view>
     </objects>
     <resources>
-        <image name="address.png" width="23" height="20"/>
         <image name="bannerView.png" width="305" height="25"/>
-        <image name="birthday.png" width="20" height="21"/>
-        <image name="cailiao1.jpg" width="308" height="308"/>
-        <image name="cloud.png" width="31" height="22"/>
-        <image name="divial.png" width="16" height="16"/>
-        <image name="email.png" width="20" height="14"/>
-        <image name="home.png" width="30" height="29"/>
+        <image name="bigPeoplePhoto.png" width="274" height="348"/>
+        <image name="carPhoto.png" width="716" height="1034"/>
+        <image name="cloud.png" width="149" height="121"/>
+        <image name="dianhua.png" width="71" height="76"/>
+        <image name="dizhi.png" width="74" height="84"/>
+        <image name="home.png" width="138" height="126"/>
         <image name="leftArrow.png" width="41" height="103"/>
-        <image name="phone.png" width="16" height="17"/>
-        <image name="puls.png" width="16" height="16"/>
         <image name="rightArrow.png" width="41" height="103"/>
+        <image name="setting.png" width="134" height="129"/>
+        <image name="shengri.png" width="74" height="75"/>
+        <image name="xiangji.png" width="99" height="97"/>
+        <image name="youxiang.png" width="74" height="69"/>
     </resources>
 </document>

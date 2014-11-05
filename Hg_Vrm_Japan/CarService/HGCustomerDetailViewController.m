@@ -7,8 +7,13 @@
 //
 
 #import "HGCustomerDetailViewController.h"
+#import "HGDetailTableViewCell.h"
+
+#define HGDetailTableViewCellIdentifier @"HGDetailTableViewCell"
 
 @interface HGCustomerDetailViewController ()
+
+@property (strong, nonatomic) IBOutlet UITableView *detailTableView;
 
 @end
 
@@ -16,7 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    UINib *personCell = [UINib nibWithNibName:@"HGDetailTableViewCell" bundle:nil];
+    [self.detailTableView registerNib:personCell forCellReuseIdentifier:HGDetailTableViewCellIdentifier];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,6 +38,24 @@
 - (IBAction)onNext:(id)sender {
     
     
+}
+
+#pragma mark - UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    return 6;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    HGDetailTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:HGDetailTableViewCellIdentifier];
+    
+    if (cell==nil) {
+        cell = [[HGDetailTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:HGDetailTableViewCellIdentifier];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        //cell.backgroundColor = [UIColor colorWithRed:51/255.0f green:51/255.0f blue:51/255.0f alpha:0.95];
+    }
+    
+    return cell;
 }
 
 

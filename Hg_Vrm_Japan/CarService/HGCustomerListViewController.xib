@@ -57,7 +57,7 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WT7-Tm-EBp">
                             <rect key="frame" x="735" y="16" width="75" height="64"/>
-                            <state key="normal" backgroundImage="home.png">
+                            <state key="normal" backgroundImage="setting.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
@@ -96,9 +96,10 @@
     </objects>
     <resources>
         <image name="cloud.png" width="31" height="22"/>
-        <image name="home.png" width="30" height="29"/>
+        <image name="home.png" width="138" height="126"/>
         <image name="leftArrow.png" width="41" height="103"/>
         <image name="person.png" width="81" height="77"/>
         <image name="searchIcon.png" width="22" height="21"/>
+        <image name="setting.png" width="134" height="129"/>
     </resources>
 </document>

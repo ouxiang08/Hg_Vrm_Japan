@@ -50,14 +50,15 @@
                     <rect key="frame" x="531" y="227" width="320" height="314"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
-                        <outlet property="dataSource" destination="-1" id="HdQ-Ok-slp"/>
-                        <outlet property="delegate" destination="-1" id="pCu-Y3-H0d"/>
+                        <outlet property="dataSource" destination="-1" id="L3v-L1-S5D"/>
+                        <outlet property="delegate" destination="-1" id="32L-ZV-qgw"/>
                     </connections>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <point key="canvasLocation" x="-52" y="161"/>
         </view>
     </objects>
     <resources>

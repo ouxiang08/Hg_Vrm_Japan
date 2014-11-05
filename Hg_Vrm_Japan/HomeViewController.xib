@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
             <connections>
-                <outlet property="pageScroll" destination="MyE-Nw-TO1" id="9KB-ny-rhe"/>
+                <outlet property="carImgV" destination="VeH-Qh-DIs" id="kcL-9I-Y18"/>
                 <outlet property="view" destination="iN0-l3-epB" id="kyP-aN-iJC"/>
             </connections>
         </placeholder>
@@ -16,23 +16,17 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyE-Nw-TO1">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thirdPage.png" translatesAutoresizingMaskIntoConstraints="NO" id="VeH-Qh-DIs">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                    <connections>
-                        <outlet property="delegate" destination="-1" id="Kt1-HG-7y5"/>
-                    </connections>
-                </scrollView>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="MyE-Nw-TO1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8gt-nB-Jnl"/>
-                <constraint firstItem="MyE-Nw-TO1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ki1-xB-NOT"/>
-                <constraint firstAttribute="bottom" secondItem="MyE-Nw-TO1" secondAttribute="bottom" id="feS-Jc-vyJ"/>
-                <constraint firstAttribute="trailing" secondItem="MyE-Nw-TO1" secondAttribute="trailing" id="jPJ-zM-z5N"/>
-            </constraints>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
-            <point key="canvasLocation" x="392" y="339"/>
+            <point key="canvasLocation" x="-46" y="295"/>
         </view>
     </objects>
+    <resources>
+        <image name="thirdPage.png" width="2048" height="1536"/>
+    </resources>
 </document>

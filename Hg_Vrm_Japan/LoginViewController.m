@@ -31,7 +31,6 @@
 - (void)viewDidAppear:(BOOL)animated{
 
     [super viewDidAppear:animated];
-    self.navigationController.navigationBarHidden = YES;
     _isChecked = NO;
 }
 

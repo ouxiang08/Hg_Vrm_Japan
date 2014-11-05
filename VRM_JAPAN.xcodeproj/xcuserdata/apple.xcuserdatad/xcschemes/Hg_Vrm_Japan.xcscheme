@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18B66A011A07418200053336"
-               BuildableName = "Hg_Vrm_Japan.app"
-               BlueprintName = "Hg_Vrm_Japan"
-               ReferencedContainer = "container:Hg_Vrm_Japan.xcodeproj">
+               BuildableName = "VRM_JAPAN.app"
+               BlueprintName = "VRM_JAPAN"
+               ReferencedContainer = "container:VRM_JAPAN.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18B66A011A07418200053336"
-            BuildableName = "Hg_Vrm_Japan.app"
-            BlueprintName = "Hg_Vrm_Japan"
-            ReferencedContainer = "container:Hg_Vrm_Japan.xcodeproj">
+            BuildableName = "VRM_JAPAN.app"
+            BlueprintName = "VRM_JAPAN"
+            ReferencedContainer = "container:VRM_JAPAN.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18B66A011A07418200053336"
-            BuildableName = "Hg_Vrm_Japan.app"
-            BlueprintName = "Hg_Vrm_Japan"
-            ReferencedContainer = "container:Hg_Vrm_Japan.xcodeproj">
+            BuildableName = "VRM_JAPAN.app"
+            BlueprintName = "VRM_JAPAN"
+            ReferencedContainer = "container:VRM_JAPAN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18B66A011A07418200053336"
-            BuildableName = "Hg_Vrm_Japan.app"
-            BlueprintName = "Hg_Vrm_Japan"
-            ReferencedContainer = "container:Hg_Vrm_Japan.xcodeproj">
+            BuildableName = "VRM_JAPAN.app"
+            BlueprintName = "VRM_JAPAN"
+            ReferencedContainer = "container:VRM_JAPAN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

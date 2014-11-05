@@ -19,6 +19,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
+
+- (IBAction)onFront:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+- (IBAction)onNext:(id)sender {
+    
+
+}
+
 - (IBAction)onClickBrand:(id)sender {
     
     HGChooseTypeViewController *chooseType = [[HGChooseTypeViewController alloc] initWithNibName:@"HGChooseTypeViewController" bundle:nil];

@@ -7,11 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181D197A1A09E84A00466CBD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D19791A09E84A00466CBD /* logo.png */; };
+		181D197F1A09EBDD00466CBD /* dianhua.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D197B1A09EBDD00466CBD /* dianhua.png */; };
+		181D19801A09EBDD00466CBD /* dizhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D197C1A09EBDD00466CBD /* dizhi.png */; };
+		181D19811A09EBDD00466CBD /* shengri.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D197D1A09EBDD00466CBD /* shengri.png */; };
+		181D19821A09EBDD00466CBD /* youxiang.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D197E1A09EBDD00466CBD /* youxiang.png */; };
+		181D19841A09EC9B00466CBD /* xiangji.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D19831A09EC9B00466CBD /* xiangji.png */; };
+		181D19871A09F07800466CBD /* k.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D19851A09F07800466CBD /* k.png */; };
+		181D19881A09F07800466CBD /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D19861A09F07800466CBD /* s.png */; };
+		181D198B1A09F25800466CBD /* conSel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D19891A09F25800466CBD /* conSel@2x.png */; };
+		181D198C1A09F25800466CBD /* conUnsel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181D198A1A09F25800466CBD /* conUnsel@2x.png */; };
 		18423ADC1A09B68900BC3A66 /* kilometreChecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423ADB1A09B68900BC3A66 /* kilometreChecked.png */; };
 		18423AE11A09B6FC00BC3A66 /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423ADD1A09B6FC00BC3A66 /* downArrow.png */; };
 		18423AE21A09B6FC00BC3A66 /* honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423ADE1A09B6FC00BC3A66 /* honda.png */; };
 		18423AE31A09B6FC00BC3A66 /* nissan.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423ADF1A09B6FC00BC3A66 /* nissan.png */; };
 		18423AE41A09B6FC00BC3A66 /* toyota.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423AE01A09B6FC00BC3A66 /* toyota.png */; };
+		18423AE71A09BE7000BC3A66 /* HGHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18423AE61A09BE7000BC3A66 /* HGHeaderView.m */; };
+		18423AEB1A09BE8400BC3A66 /* HGHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18423AE81A09BE8400BC3A66 /* HGHeaderView.xib */; };
+		18423AF11A09C67700BC3A66 /* HGDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18423AEF1A09C67700BC3A66 /* HGDetailTableViewCell.m */; };
+		18423AF21A09C67700BC3A66 /* HGDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18423AF01A09C67700BC3A66 /* HGDetailTableViewCell.xib */; };
+		18423AF41A09C88400BC3A66 /* settleBgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423AF31A09C88400BC3A66 /* settleBgImg.png */; };
+		18423AF71A09CCA100BC3A66 /* bigPeoplePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423AF51A09CCA100BC3A66 /* bigPeoplePhoto.png */; };
+		18423AF81A09CCA100BC3A66 /* smallPeoplePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423AF61A09CCA100BC3A66 /* smallPeoplePhoto.png */; };
+		18423AFA1A09CCAF00BC3A66 /* carPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423AF91A09CCAF00BC3A66 /* carPhoto.png */; };
+		18423AFC1A09CCF000BC3A66 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423AFB1A09CCF000BC3A66 /* setting.png */; };
+		18423AFE1A09CEB300BC3A66 /* carDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423AFD1A09CEB300BC3A66 /* carDetail.png */; };
+		18423B001A09D5F400BC3A66 /* conBannerView.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423AFF1A09D5F400BC3A66 /* conBannerView.png */; };
 		1852B1281A0863AA00BAF330 /* 10000.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1131A0863AA00BAF330 /* 10000.png */; };
 		1852B1291A0863AA00BAF330 /* 100000.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1141A0863AA00BAF330 /* 100000.png */; };
 		1852B12A1A0863AA00BAF330 /* 10K+.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1151A0863AA00BAF330 /* 10K+.png */; };
@@ -33,7 +54,6 @@
 		1852B13A1A0863AA00BAF330 /* 85000.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1251A0863AA00BAF330 /* 85000.png */; };
 		1852B13B1A0863AA00BAF330 /* 90000.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1261A0863AA00BAF330 /* 90000.png */; };
 		1852B13C1A0863AA00BAF330 /* 95000.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1271A0863AA00BAF330 /* 95000.png */; };
-		1852B13E1A08684200BAF330 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B13D1A08684200BAF330 /* logo.png */; };
 		1852B1431A08697B00BAF330 /* cailiao1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1852B13F1A08697B00BAF330 /* cailiao1.jpg */; };
 		1852B1441A08697B00BAF330 /* cailiao2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1401A08697B00BAF330 /* cailiao2.jpg */; };
 		1852B1451A08697B00BAF330 /* cailiao3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1411A08697B00BAF330 /* cailiao3.jpg */; };
@@ -57,8 +77,6 @@
 		18A1EC611A08C9EE00B843EA /* chooseTyp.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A1EC5F1A08C9EE00B843EA /* chooseTyp.png */; };
 		18A1EC621A08C9EE00B843EA /* searchBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A1EC601A08C9EE00B843EA /* searchBar.png */; };
 		18A1EC641A08D17100B843EA /* contentBgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A1EC631A08D17100B843EA /* contentBgImg.png */; };
-		18A1EC671A08D3CC00B843EA /* conSel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A1EC651A08D3CC00B843EA /* conSel.png */; };
-		18A1EC681A08D3CC00B843EA /* conUnsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A1EC661A08D3CC00B843EA /* conUnsel.png */; };
 		18B66A061A07418200053336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A051A07418200053336 /* Foundation.framework */; };
 		18B66A081A07418200053336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A071A07418200053336 /* CoreGraphics.framework */; };
 		18B66A0A1A07418200053336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B66A091A07418200053336 /* UIKit.framework */; };
@@ -131,11 +149,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181D19791A09E84A00466CBD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		181D197B1A09EBDD00466CBD /* dianhua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dianhua.png; sourceTree = "<group>"; };
+		181D197C1A09EBDD00466CBD /* dizhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dizhi.png; sourceTree = "<group>"; };
+		181D197D1A09EBDD00466CBD /* shengri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shengri.png; sourceTree = "<group>"; };
+		181D197E1A09EBDD00466CBD /* youxiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youxiang.png; sourceTree = "<group>"; };
+		181D19831A09EC9B00466CBD /* xiangji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiangji.png; sourceTree = "<group>"; };
+		181D19851A09F07800466CBD /* k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = k.png; sourceTree = "<group>"; };
+		181D19861A09F07800466CBD /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s.png; sourceTree = "<group>"; };
+		181D19891A09F25800466CBD /* conSel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "conSel@2x.png"; sourceTree = "<group>"; };
+		181D198A1A09F25800466CBD /* conUnsel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "conUnsel@2x.png"; sourceTree = "<group>"; };
 		18423ADB1A09B68900BC3A66 /* kilometreChecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kilometreChecked.png; sourceTree = "<group>"; };
 		18423ADD1A09B6FC00BC3A66 /* downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downArrow.png; sourceTree = "<group>"; };
 		18423ADE1A09B6FC00BC3A66 /* honda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honda.png; sourceTree = "<group>"; };
 		18423ADF1A09B6FC00BC3A66 /* nissan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nissan.png; sourceTree = "<group>"; };
 		18423AE01A09B6FC00BC3A66 /* toyota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toyota.png; sourceTree = "<group>"; };
+		18423AE51A09BE7000BC3A66 /* HGHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGHeaderView.h; sourceTree = "<group>"; };
+		18423AE61A09BE7000BC3A66 /* HGHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGHeaderView.m; sourceTree = "<group>"; };
+		18423AE81A09BE8400BC3A66 /* HGHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGHeaderView.xib; sourceTree = "<group>"; };
+		18423AEE1A09C67700BC3A66 /* HGDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGDetailTableViewCell.h; sourceTree = "<group>"; };
+		18423AEF1A09C67700BC3A66 /* HGDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGDetailTableViewCell.m; sourceTree = "<group>"; };
+		18423AF01A09C67700BC3A66 /* HGDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGDetailTableViewCell.xib; sourceTree = "<group>"; };
+		18423AF31A09C88400BC3A66 /* settleBgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settleBgImg.png; sourceTree = "<group>"; };
+		18423AF51A09CCA100BC3A66 /* bigPeoplePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigPeoplePhoto.png; sourceTree = "<group>"; };
+		18423AF61A09CCA100BC3A66 /* smallPeoplePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallPeoplePhoto.png; sourceTree = "<group>"; };
+		18423AF91A09CCAF00BC3A66 /* carPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carPhoto.png; sourceTree = "<group>"; };
+		18423AFB1A09CCF000BC3A66 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		18423AFD1A09CEB300BC3A66 /* carDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carDetail.png; sourceTree = "<group>"; };
+		18423AFF1A09D5F400BC3A66 /* conBannerView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conBannerView.png; sourceTree = "<group>"; };
 		1852B1131A0863AA00BAF330 /* 10000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10000.png; sourceTree = "<group>"; };
 		1852B1141A0863AA00BAF330 /* 100000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100000.png; sourceTree = "<group>"; };
 		1852B1151A0863AA00BAF330 /* 10K+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10K+.png"; sourceTree = "<group>"; };
@@ -157,7 +198,6 @@
 		1852B1251A0863AA00BAF330 /* 85000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 85000.png; sourceTree = "<group>"; };
 		1852B1261A0863AA00BAF330 /* 90000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 90000.png; sourceTree = "<group>"; };
 		1852B1271A0863AA00BAF330 /* 95000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 95000.png; sourceTree = "<group>"; };
-		1852B13D1A08684200BAF330 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		1852B13F1A08697B00BAF330 /* cailiao1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cailiao1.jpg; sourceTree = "<group>"; };
 		1852B1401A08697B00BAF330 /* cailiao2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cailiao2.jpg; sourceTree = "<group>"; };
 		1852B1411A08697B00BAF330 /* cailiao3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cailiao3.jpg; sourceTree = "<group>"; };
@@ -182,9 +222,7 @@
 		18A1EC5F1A08C9EE00B843EA /* chooseTyp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chooseTyp.png; sourceTree = "<group>"; };
 		18A1EC601A08C9EE00B843EA /* searchBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchBar.png; sourceTree = "<group>"; };
 		18A1EC631A08D17100B843EA /* contentBgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contentBgImg.png; sourceTree = "<group>"; };
-		18A1EC651A08D3CC00B843EA /* conSel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conSel.png; sourceTree = "<group>"; };
-		18A1EC661A08D3CC00B843EA /* conUnsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conUnsel.png; sourceTree = "<group>"; };
-		18B66A021A07418200053336 /* Hg_Vrm_Japan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hg_Vrm_Japan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B66A021A07418200053336 /* VRM_JAPAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRM_JAPAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B66A051A07418200053336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18B66A071A07418200053336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		18B66A091A07418200053336 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -193,7 +231,7 @@
 		18B66A101A07418200053336 /* Hg_Vrm_Japan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hg_Vrm_Japan-Info.plist"; sourceTree = "<group>"; };
 		18B66A121A07418200053336 /* Hg_Vrm_Japan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hg_Vrm_Japan-Prefix.pch"; sourceTree = "<group>"; };
 		18B66A1A1A07418200053336 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		18B66A201A07418200053336 /* Hg_Vrm_JapanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hg_Vrm_JapanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B66A201A07418200053336 /* VRM_JAPANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRM_JAPANTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B66A211A07418200053336 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		18B66A251A07418200053336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B66A261A07418200053336 /* Hg_Vrm_JapanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hg_Vrm_JapanTests-Info.plist"; sourceTree = "<group>"; };
@@ -342,8 +380,8 @@
 		18B66A031A07418200053336 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18B66A021A07418200053336 /* Hg_Vrm_Japan.app */,
-				18B66A201A07418200053336 /* Hg_Vrm_JapanTests.xctest */,
+				18B66A021A07418200053336 /* VRM_JAPAN.app */,
+				18B66A201A07418200053336 /* VRM_JAPANTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -416,6 +454,9 @@
 				18B66A651A07571400053336 /* HGDataStore.m */,
 				18B66A3B1A074D5200053336 /* Categories */,
 				18B66A461A074D5200053336 /* PageControl */,
+				18423AE51A09BE7000BC3A66 /* HGHeaderView.h */,
+				18423AE61A09BE7000BC3A66 /* HGHeaderView.m */,
+				18423AE81A09BE8400BC3A66 /* HGHeaderView.xib */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -449,13 +490,27 @@
 		18B66A4B1A074D5200053336 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				181D19891A09F25800466CBD /* conSel@2x.png */,
+				181D198A1A09F25800466CBD /* conUnsel@2x.png */,
+				181D19851A09F07800466CBD /* k.png */,
+				181D19861A09F07800466CBD /* s.png */,
+				181D197B1A09EBDD00466CBD /* dianhua.png */,
+				181D19831A09EC9B00466CBD /* xiangji.png */,
+				181D197C1A09EBDD00466CBD /* dizhi.png */,
+				181D197D1A09EBDD00466CBD /* shengri.png */,
+				181D197E1A09EBDD00466CBD /* youxiang.png */,
+				18423AFF1A09D5F400BC3A66 /* conBannerView.png */,
+				18423AFD1A09CEB300BC3A66 /* carDetail.png */,
+				18423AF91A09CCAF00BC3A66 /* carPhoto.png */,
+				18423AF51A09CCA100BC3A66 /* bigPeoplePhoto.png */,
+				18423AF61A09CCA100BC3A66 /* smallPeoplePhoto.png */,
+				18423AFB1A09CCF000BC3A66 /* setting.png */,
+				18423AF31A09C88400BC3A66 /* settleBgImg.png */,
 				18423ADD1A09B6FC00BC3A66 /* downArrow.png */,
 				18423ADE1A09B6FC00BC3A66 /* honda.png */,
 				18423ADF1A09B6FC00BC3A66 /* nissan.png */,
 				18423AE01A09B6FC00BC3A66 /* toyota.png */,
 				18423ADB1A09B68900BC3A66 /* kilometreChecked.png */,
-				18A1EC651A08D3CC00B843EA /* conSel.png */,
-				18A1EC661A08D3CC00B843EA /* conUnsel.png */,
 				18A1EC631A08D17100B843EA /* contentBgImg.png */,
 				18A1EC5F1A08C9EE00B843EA /* chooseTyp.png */,
 				18A1EC601A08C9EE00B843EA /* searchBar.png */,
@@ -490,6 +545,7 @@
 		18B66A4C1A074D5200053336 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				181D19791A09E84A00466CBD /* logo.png */,
 				18A1EC5B1A08C40300B843EA /* pagecontrol-thumb-normal@2x.png */,
 				18A1EC5C1A08C40300B843EA /* pagecontrol-thumb-selected@2x.png */,
 				18B66A4E1A074D5200053336 /* thirdPage.png */,
@@ -542,7 +598,6 @@
 		18B66AB01A077D9300053336 /* Type */ = {
 			isa = PBXGroup;
 			children = (
-				1852B13D1A08684200BAF330 /* logo.png */,
 				18C4C05B1A0790D40077026E /* carSeleted.png */,
 				18C4C05C1A0790D40077026E /* carUnSele.png */,
 				18B66AB11A077D9300053336 /* type1.png */,
@@ -577,6 +632,9 @@
 				1852B15F1A08A63200BAF330 /* HGPersonTableViewCell.h */,
 				1852B1601A08A63200BAF330 /* HGPersonTableViewCell.m */,
 				1852B1611A08A63200BAF330 /* HGPersonTableViewCell.xib */,
+				18423AEE1A09C67700BC3A66 /* HGDetailTableViewCell.h */,
+				18423AEF1A09C67700BC3A66 /* HGDetailTableViewCell.m */,
+				18423AF01A09C67700BC3A66 /* HGDetailTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -584,9 +642,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18B66A011A07418200053336 /* Hg_Vrm_Japan */ = {
+		18B66A011A07418200053336 /* VRM_JAPAN */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18B66A2C1A07418200053336 /* Build configuration list for PBXNativeTarget "Hg_Vrm_Japan" */;
+			buildConfigurationList = 18B66A2C1A07418200053336 /* Build configuration list for PBXNativeTarget "VRM_JAPAN" */;
 			buildPhases = (
 				18B669FE1A07418200053336 /* Sources */,
 				18B669FF1A07418200053336 /* Frameworks */,
@@ -596,14 +654,14 @@
 			);
 			dependencies = (
 			);
-			name = Hg_Vrm_Japan;
+			name = VRM_JAPAN;
 			productName = Hg_Vrm_Japan;
-			productReference = 18B66A021A07418200053336 /* Hg_Vrm_Japan.app */;
+			productReference = 18B66A021A07418200053336 /* VRM_JAPAN.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18B66A1F1A07418200053336 /* Hg_Vrm_JapanTests */ = {
+		18B66A1F1A07418200053336 /* VRM_JAPANTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18B66A2F1A07418200053336 /* Build configuration list for PBXNativeTarget "Hg_Vrm_JapanTests" */;
+			buildConfigurationList = 18B66A2F1A07418200053336 /* Build configuration list for PBXNativeTarget "VRM_JAPANTests" */;
 			buildPhases = (
 				18B66A1C1A07418200053336 /* Sources */,
 				18B66A1D1A07418200053336 /* Frameworks */,
@@ -613,9 +671,9 @@
 			);
 			dependencies = (
 			);
-			name = Hg_Vrm_JapanTests;
+			name = VRM_JAPANTests;
 			productName = Hg_Vrm_JapanTests;
-			productReference = 18B66A201A07418200053336 /* Hg_Vrm_JapanTests.xctest */;
+			productReference = 18B66A201A07418200053336 /* VRM_JAPANTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -637,7 +695,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18B669FD1A07418200053336 /* Build configuration list for PBXProject "Hg_Vrm_Japan" */;
+			buildConfigurationList = 18B669FD1A07418200053336 /* Build configuration list for PBXProject "VRM_JAPAN" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -650,8 +708,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18B66A011A07418200053336 /* Hg_Vrm_Japan */,
-				18B66A1F1A07418200053336 /* Hg_Vrm_JapanTests */,
+				18B66A011A07418200053336 /* VRM_JAPAN */,
+				18B66A1F1A07418200053336 /* VRM_JAPANTests */,
 			);
 		};
 /* End PBXProject section */
@@ -666,12 +724,12 @@
 				1852B1541A087CDC00BAF330 /* camia.png in Resources */,
 				18423AE11A09B6FC00BC3A66 /* downArrow.png in Resources */,
 				1852B1381A0863AA00BAF330 /* 75000.png in Resources */,
-				1852B13E1A08684200BAF330 /* logo.png in Resources */,
 				18B66AD81A077D9300053336 /* type4.png in Resources */,
 				1852B1291A0863AA00BAF330 /* 100000.png in Resources */,
 				18A1EC5E1A08C40300B843EA /* pagecontrol-thumb-selected@2x.png in Resources */,
 				18B66A1B1A07418200053336 /* Images.xcassets in Resources */,
 				1852B12F1A0863AA00BAF330 /* 35000.png in Resources */,
+				181D198C1A09F25800466CBD /* conUnsel@2x.png in Resources */,
 				18B66ADC1A077D9300053336 /* type8.png in Resources */,
 				18B66AD71A077D9300053336 /* type3.png in Resources */,
 				18B66A8D1A076CA900053336 /* HGSettlementViewController.xib in Resources */,
@@ -686,6 +744,7 @@
 				1852B13C1A0863AA00BAF330 /* 95000.png in Resources */,
 				18423ADC1A09B68900BC3A66 /* kilometreChecked.png in Resources */,
 				18B66AD61A077D9300053336 /* type2.png in Resources */,
+				18423AF41A09C88400BC3A66 /* settleBgImg.png in Resources */,
 				1852B1321A0863AA00BAF330 /* 5000.png in Resources */,
 				18B66A621A074D5200053336 /* loginBgImg.png in Resources */,
 				18B66ADB1A077D9300053336 /* type7.png in Resources */,
@@ -693,11 +752,16 @@
 				18B66A631A074D5200053336 /* loginBtn.png in Resources */,
 				1852B1301A0863AA00BAF330 /* 40000.png in Resources */,
 				6E6080181A07CA04002112A1 /* HGCustomerListViewController.xib in Resources */,
+				18423AF81A09CCA100BC3A66 /* smallPeoplePhoto.png in Resources */,
+				181D19811A09EBDD00466CBD /* shengri.png in Resources */,
 				1852B1451A08697B00BAF330 /* cailiao3.jpg in Resources */,
 				18B66AD21A077D9300053336 /* type1.png in Resources */,
 				18B66AD41A077D9300053336 /* type11.png in Resources */,
+				181D19881A09F07800466CBD /* s.png in Resources */,
 				18B66A111A07418200053336 /* Hg_Vrm_Japan-Info.plist in Resources */,
+				18423AEB1A09BE8400BC3A66 /* HGHeaderView.xib in Resources */,
 				1852B1561A087CDC00BAF330 /* divial.png in Resources */,
+				18423AF71A09CCA100BC3A66 /* bigPeoplePhoto.png in Resources */,
 				1852B15A1A087CDC00BAF330 /* puls.png in Resources */,
 				1852B12B1A0863AA00BAF330 /* 15000.png in Resources */,
 				1852B1361A0863AA00BAF330 /* 65000.png in Resources */,
@@ -711,9 +775,8 @@
 				18B66A601A074D5200053336 /* checked.png in Resources */,
 				18423AE21A09B6FC00BC3A66 /* honda.png in Resources */,
 				1852B1341A0863AA00BAF330 /* 55000.png in Resources */,
-				18A1EC681A08D3CC00B843EA /* conUnsel.png in Resources */,
 				18B66A611A074D5200053336 /* checkLogin.png in Resources */,
-				18A1EC671A08D3CC00B843EA /* conSel.png in Resources */,
+				181D197A1A09E84A00466CBD /* logo.png in Resources */,
 				18B66A701A07608A00053336 /* LoginViewController.xib in Resources */,
 				1852B13A1A0863AA00BAF330 /* 85000.png in Resources */,
 				18B66A861A07655100053336 /* kilometreBgImg.png in Resources */,
@@ -728,28 +791,39 @@
 				1852B1591A087CDC00BAF330 /* phone.png in Resources */,
 				1852B1631A08A63200BAF330 /* HGPersonTableViewCell.xib in Resources */,
 				18C4C05E1A0790D40077026E /* carUnSele.png in Resources */,
+				18423B001A09D5F400BC3A66 /* conBannerView.png in Resources */,
 				18B66A951A07798600053336 /* checkLogin@2x.png in Resources */,
 				6E6080221A07CA48002112A1 /* HGCustomerInfoViewController.xib in Resources */,
 				18B66A7D1A0761E700053336 /* HGChooseTypeViewController.xib in Resources */,
 				1852B12A1A0863AA00BAF330 /* 10K+.png in Resources */,
 				18B66A8F1A076CE800053336 /* settlementBgImg.png in Resources */,
+				18423AFE1A09CEB300BC3A66 /* carDetail.png in Resources */,
 				1852B1581A087CDC00BAF330 /* home.png in Resources */,
 				1852B1551A087CDC00BAF330 /* cloud.png in Resources */,
+				181D19821A09EBDD00466CBD /* youxiang.png in Resources */,
 				1852B13B1A0863AA00BAF330 /* 90000.png in Resources */,
 				18C4C0631A0793DD0077026E /* HGKilometreCollectionViewCell.xib in Resources */,
 				1852B12C1A0863AA00BAF330 /* 20000.png in Resources */,
 				18B66A841A07645C00053336 /* brandBgImg.png in Resources */,
 				1852B15E1A08A50300BAF330 /* searchIcon.png in Resources */,
+				181D19871A09F07800466CBD /* k.png in Resources */,
+				18423AFA1A09CCAF00BC3A66 /* carPhoto.png in Resources */,
 				6EB82E821A07C1CB00E9CFAD /* HGChooseContentViewController.xib in Resources */,
 				18B66A981A077AC800053336 /* leftArrow@2x.png in Resources */,
 				18C4C05D1A0790D40077026E /* carSeleted.png in Resources */,
 				18423AE41A09B6FC00BC3A66 /* toyota.png in Resources */,
+				18423AFC1A09CCF000BC3A66 /* setting.png in Resources */,
 				18B66A6A1A075F8000053336 /* HomeViewController.xib in Resources */,
+				181D19801A09EBDD00466CBD /* dizhi.png in Resources */,
+				181D19841A09EC9B00466CBD /* xiangji.png in Resources */,
 				1852B1431A08697B00BAF330 /* cailiao1.jpg in Resources */,
 				18A1EC641A08D17100B843EA /* contentBgImg.png in Resources */,
+				181D198B1A09F25800466CBD /* conSel@2x.png in Resources */,
 				1852B12D1A0863AA00BAF330 /* 25000.png in Resources */,
 				18A1EC611A08C9EE00B843EA /* chooseTyp.png in Resources */,
 				18B66A991A077AC800053336 /* rightArrow@2x.png in Resources */,
+				181D197F1A09EBDD00466CBD /* dianhua.png in Resources */,
+				18423AF21A09C67700BC3A66 /* HGDetailTableViewCell.xib in Resources */,
 				1852B1511A087CDC00BAF330 /* address.png in Resources */,
 				1852B15D1A08A50300BAF330 /* person.png in Resources */,
 				18B66AD91A077D9300053336 /* type5.png in Resources */,
@@ -787,7 +861,9 @@
 				18B66A591A074D5200053336 /* UIView+Additions.m in Sources */,
 				18B66A371A074BF300053336 /* HGAppDelegate.m in Sources */,
 				6E6080171A07CA04002112A1 /* HGCustomerListViewController.m in Sources */,
+				18423AF11A09C67700BC3A66 /* HGDetailTableViewCell.m in Sources */,
 				18B66A771A0761CB00053336 /* HGChooseBrandViewController.m in Sources */,
+				18423AE71A09BE7000BC3A66 /* HGHeaderView.m in Sources */,
 				18C4C0621A0793DD0077026E /* HGKilometreCollectionViewCell.m in Sources */,
 				6EB82E811A07C1CB00E9CFAD /* HGChooseContentViewController.m in Sources */,
 				18B66A661A07571400053336 /* HGDataStore.m in Sources */,
@@ -895,7 +971,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hg_Vrm_Japan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VRM_JAPAN;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -910,7 +986,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hg_Vrm_Japan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VRM_JAPAN;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -928,7 +1004,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Hg_Vrm_JapanTests/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VRM_JAPANTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -941,7 +1017,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Hg_Vrm_JapanTests/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VRM_JAPANTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -949,7 +1025,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18B669FD1A07418200053336 /* Build configuration list for PBXProject "Hg_Vrm_Japan" */ = {
+		18B669FD1A07418200053336 /* Build configuration list for PBXProject "VRM_JAPAN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18B66A2A1A07418200053336 /* Debug */,
@@ -958,7 +1034,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18B66A2C1A07418200053336 /* Build configuration list for PBXNativeTarget "Hg_Vrm_Japan" */ = {
+		18B66A2C1A07418200053336 /* Build configuration list for PBXNativeTarget "VRM_JAPAN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18B66A2D1A07418200053336 /* Debug */,
@@ -967,7 +1043,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18B66A2F1A07418200053336 /* Build configuration list for PBXNativeTarget "Hg_Vrm_JapanTests" */ = {
+		18B66A2F1A07418200053336 /* Build configuration list for PBXNativeTarget "VRM_JAPANTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18B66A301A07418200053336 /* Debug */,
