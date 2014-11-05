@@ -68,7 +68,7 @@
     NSUInteger oldRow = [_seletedIndexPath row];
     
     if (_seletedIndexPath != nil && row == oldRow) {
-        cell.kilometreSele.image = [UIImage imageNamed:@"checked.png"];
+        cell.kilometreSele.image = [UIImage imageNamed:@"kilometreChecked.png"];
     }else{
         cell.kilometreSele.image = nil;
     }

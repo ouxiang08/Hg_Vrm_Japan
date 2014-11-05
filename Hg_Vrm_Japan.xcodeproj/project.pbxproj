@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18423ADC1A09B68900BC3A66 /* kilometreChecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423ADB1A09B68900BC3A66 /* kilometreChecked.png */; };
+		18423AE11A09B6FC00BC3A66 /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423ADD1A09B6FC00BC3A66 /* downArrow.png */; };
+		18423AE21A09B6FC00BC3A66 /* honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423ADE1A09B6FC00BC3A66 /* honda.png */; };
+		18423AE31A09B6FC00BC3A66 /* nissan.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423ADF1A09B6FC00BC3A66 /* nissan.png */; };
+		18423AE41A09B6FC00BC3A66 /* toyota.png in Resources */ = {isa = PBXBuildFile; fileRef = 18423AE01A09B6FC00BC3A66 /* toyota.png */; };
 		1852B1281A0863AA00BAF330 /* 10000.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1131A0863AA00BAF330 /* 10000.png */; };
 		1852B1291A0863AA00BAF330 /* 100000.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1141A0863AA00BAF330 /* 100000.png */; };
 		1852B12A1A0863AA00BAF330 /* 10K+.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852B1151A0863AA00BAF330 /* 10K+.png */; };
@@ -126,6 +131,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18423ADB1A09B68900BC3A66 /* kilometreChecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kilometreChecked.png; sourceTree = "<group>"; };
+		18423ADD1A09B6FC00BC3A66 /* downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downArrow.png; sourceTree = "<group>"; };
+		18423ADE1A09B6FC00BC3A66 /* honda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honda.png; sourceTree = "<group>"; };
+		18423ADF1A09B6FC00BC3A66 /* nissan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nissan.png; sourceTree = "<group>"; };
+		18423AE01A09B6FC00BC3A66 /* toyota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toyota.png; sourceTree = "<group>"; };
 		1852B1131A0863AA00BAF330 /* 10000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10000.png; sourceTree = "<group>"; };
 		1852B1141A0863AA00BAF330 /* 100000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100000.png; sourceTree = "<group>"; };
 		1852B1151A0863AA00BAF330 /* 10K+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10K+.png"; sourceTree = "<group>"; };
@@ -439,6 +449,11 @@
 		18B66A4B1A074D5200053336 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				18423ADD1A09B6FC00BC3A66 /* downArrow.png */,
+				18423ADE1A09B6FC00BC3A66 /* honda.png */,
+				18423ADF1A09B6FC00BC3A66 /* nissan.png */,
+				18423AE01A09B6FC00BC3A66 /* toyota.png */,
+				18423ADB1A09B68900BC3A66 /* kilometreChecked.png */,
 				18A1EC651A08D3CC00B843EA /* conSel.png */,
 				18A1EC661A08D3CC00B843EA /* conUnsel.png */,
 				18A1EC631A08D17100B843EA /* contentBgImg.png */,
@@ -649,6 +664,7 @@
 				18B66AD31A077D9300053336 /* type10.png in Resources */,
 				18A1EC5D1A08C40300B843EA /* pagecontrol-thumb-normal@2x.png in Resources */,
 				1852B1541A087CDC00BAF330 /* camia.png in Resources */,
+				18423AE11A09B6FC00BC3A66 /* downArrow.png in Resources */,
 				1852B1381A0863AA00BAF330 /* 75000.png in Resources */,
 				1852B13E1A08684200BAF330 /* logo.png in Resources */,
 				18B66AD81A077D9300053336 /* type4.png in Resources */,
@@ -662,11 +678,13 @@
 				18B66ADA1A077D9300053336 /* type6.png in Resources */,
 				1852B1391A0863AA00BAF330 /* 80000.png in Resources */,
 				18A1EC621A08C9EE00B843EA /* searchBar.png in Resources */,
+				18423AE31A09B6FC00BC3A66 /* nissan.png in Resources */,
 				1852B1331A0863AA00BAF330 /* 50000.png in Resources */,
 				1852B1311A0863AA00BAF330 /* 45000.png in Resources */,
 				1852B1371A0863AA00BAF330 /* 70000.png in Resources */,
 				18C4C05A1A0790600077026E /* HGCarTypeCollectionViewCell.xib in Resources */,
 				1852B13C1A0863AA00BAF330 /* 95000.png in Resources */,
+				18423ADC1A09B68900BC3A66 /* kilometreChecked.png in Resources */,
 				18B66AD61A077D9300053336 /* type2.png in Resources */,
 				1852B1321A0863AA00BAF330 /* 5000.png in Resources */,
 				18B66A621A074D5200053336 /* loginBgImg.png in Resources */,
@@ -691,6 +709,7 @@
 				6E60801D1A07CA1B002112A1 /* HGCustomerDetailViewController.xib in Resources */,
 				18B66A781A0761CB00053336 /* HGChooseBrandViewController.xib in Resources */,
 				18B66A601A074D5200053336 /* checked.png in Resources */,
+				18423AE21A09B6FC00BC3A66 /* honda.png in Resources */,
 				1852B1341A0863AA00BAF330 /* 55000.png in Resources */,
 				18A1EC681A08D3CC00B843EA /* conUnsel.png in Resources */,
 				18B66A611A074D5200053336 /* checkLogin.png in Resources */,
@@ -724,6 +743,7 @@
 				6EB82E821A07C1CB00E9CFAD /* HGChooseContentViewController.xib in Resources */,
 				18B66A981A077AC800053336 /* leftArrow@2x.png in Resources */,
 				18C4C05D1A0790D40077026E /* carSeleted.png in Resources */,
+				18423AE41A09B6FC00BC3A66 /* toyota.png in Resources */,
 				18B66A6A1A075F8000053336 /* HomeViewController.xib in Resources */,
 				1852B1431A08697B00BAF330 /* cailiao1.jpg in Resources */,
 				18A1EC641A08D17100B843EA /* contentBgImg.png in Resources */,

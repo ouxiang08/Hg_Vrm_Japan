@@ -35,6 +35,18 @@
 }
 
 
+- (IBAction)onFront:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+- (IBAction)onNext:(id)sender {
+    
+//    HGCustomerInfoViewController *customerInfoVC = [[HGCustomerInfoViewController alloc] initWithNibName:@"HGCustomerInfoViewController" bundle:nil];
+//    [self.navigationController pushViewController:customerInfoVC animated:YES];
+}
+
+
+
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 

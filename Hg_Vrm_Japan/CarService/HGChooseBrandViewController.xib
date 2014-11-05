@@ -20,22 +20,34 @@
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cur-fa-sH0">
                     <rect key="frame" x="387" y="0.0" width="250" height="768"/>
-                    <state key="normal" title="Button" backgroundImage="brandImg.png">
+                    <state key="normal" backgroundImage="brandImg.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="onClickBrand:" destination="-1" eventType="touchUpInside" id="3rO-AP-RpC"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="honda.png" translatesAutoresizingMaskIntoConstraints="NO" id="OeS-tb-qPn">
+                    <rect key="frame" x="405" y="288" width="214" height="191"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="downArrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="6d2-9j-xou">
+                    <rect key="frame" x="478" y="697" width="69" height="31"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ryy-ce-kA4">
                     <rect key="frame" x="637" y="0.0" width="250" height="768"/>
-                    <state key="normal" title="Button" backgroundImage="brandImg.png">
+                    <state key="normal" backgroundImage="brandImg.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="onClickBrand:" destination="-1" eventType="touchUpInside" id="Ydr-VR-6vC"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nissan.png" translatesAutoresizingMaskIntoConstraints="NO" id="qYB-48-N4I">
+                    <rect key="frame" x="655" y="288" width="214" height="191"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="downArrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zfm-At-YsL">
+                    <rect key="frame" x="728" y="697" width="69" height="31"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdi-gm-Ir1">
                     <rect key="frame" x="983" y="332" width="41" height="104"/>
                     <state key="normal" backgroundImage="rightArrow.png">
@@ -50,13 +62,19 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJi-jY-AzM">
                     <rect key="frame" x="137" y="0.0" width="250" height="768"/>
-                    <state key="normal" title="Button" backgroundImage="brandImg.png">
+                    <state key="normal" backgroundImage="brandImg.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="onClickBrand:" destination="-1" eventType="touchUpInside" id="ydv-A0-mWL"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toyota.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kht-B1-5HQ">
+                    <rect key="frame" x="155" y="288" width="214" height="191"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="downArrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="N5x-mC-pl4">
+                    <rect key="frame" x="228" y="697" width="69" height="31"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -73,7 +91,11 @@
     <resources>
         <image name="brandBgImg.png" width="2048" height="1536"/>
         <image name="brandImg.png" width="499" height="1536"/>
+        <image name="downArrow.png" width="138" height="74"/>
+        <image name="honda.png" width="395" height="326"/>
         <image name="leftArrow.png" width="41" height="103"/>
+        <image name="nissan.png" width="395" height="326"/>
         <image name="rightArrow.png" width="41" height="103"/>
+        <image name="toyota.png" width="395" height="326"/>
     </resources>
 </document>
