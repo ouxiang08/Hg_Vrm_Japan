@@ -9,6 +9,7 @@
 #import "HGCustomerListViewController.h"
 #import "HGCustomerDetailViewController.h"
 #import "HGPersonTableViewCell.h"
+#import "HGChooseBrandViewController.h"
 
 #define HGPersonTableViewCellIdentifier @"HGPersonTableViewCell"
 
@@ -32,6 +33,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (IBAction)onHome:(id)sender {
+    
+    [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:2]
+                                          animated:YES];
 }
 
 

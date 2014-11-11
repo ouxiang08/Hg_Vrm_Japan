@@ -115,7 +115,7 @@
                     <rect key="frame" x="0.0" y="628" width="1024" height="100"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUg-1d-2D2">
-                            <rect key="frame" x="0.0" y="1" width="41" height="100"/>
+                            <rect key="frame" x="0.0" y="1" width="41" height="98"/>
                             <state key="normal" backgroundImage="leftArrow.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -139,7 +139,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ga5-yb-sT2">
-                            <rect key="frame" x="634" y="16" width="75" height="64"/>
+                            <rect key="frame" x="728" y="16" width="75" height="64"/>
                             <state key="normal" backgroundImage="home.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -154,15 +154,6 @@
                             </state>
                             <connections>
                                 <action selector="onCloud:" destination="-1" eventType="touchUpInside" id="u7S-a7-FLW"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1PD-ix-nTC">
-                            <rect key="frame" x="735" y="16" width="75" height="64"/>
-                            <state key="normal" backgroundImage="setting.png">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="onSetting:" destination="-1" eventType="touchUpInside" id="Lp8-Eo-IIi"/>
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQc-ab-NVw">
@@ -192,7 +183,7 @@
         </view>
     </objects>
     <resources>
-        <image name="bannerView.png" width="305" height="25"/>
+        <image name="bannerView.png" width="1119" height="91"/>
         <image name="bigPeoplePhoto.png" width="274" height="348"/>
         <image name="carPhoto.png" width="716" height="1034"/>
         <image name="cloud.png" width="149" height="121"/>
@@ -201,7 +192,6 @@
         <image name="home.png" width="138" height="126"/>
         <image name="leftArrow.png" width="41" height="103"/>
         <image name="rightArrow.png" width="41" height="103"/>
-        <image name="setting.png" width="134" height="129"/>
         <image name="shengri.png" width="74" height="75"/>
         <image name="xiangji.png" width="99" height="97"/>
         <image name="youxiang.png" width="74" height="69"/>

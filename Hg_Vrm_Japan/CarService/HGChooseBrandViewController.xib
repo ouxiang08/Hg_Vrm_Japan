@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HGChooseBrandViewController">
             <connections>
+                <outlet property="userPhotoImgV" destination="Ezy-EG-Ni6" id="gAG-al-UnO"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,6 +18,9 @@
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brandBgImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iup-LP-ngQ">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tou2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ezy-EG-Ni6">
+                    <rect key="frame" x="10" y="10" width="80" height="80"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cur-fa-sH0">
                     <rect key="frame" x="387" y="0.0" width="250" height="768"/>
@@ -102,6 +106,7 @@
         <image name="leftArrow.png" width="41" height="103"/>
         <image name="nissan.png" width="395" height="326"/>
         <image name="rightArrow.png" width="41" height="103"/>
+        <image name="tou2.png" width="297" height="283"/>
         <image name="toyota.png" width="395" height="326"/>
     </resources>
 </document>

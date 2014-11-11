@@ -8,6 +8,7 @@
 
 #import "HGCustomerInfoViewController.h"
 #import "HGCustomerListViewController.h"
+#import "HGChooseBrandViewController.h"
 
 @interface HGCustomerInfoViewController ()<UINavigationControllerDelegate, UIImagePickerControllerDelegate>{
 
@@ -91,9 +92,8 @@
 
 - (IBAction)onHome:(id)sender {
     
-}
-- (IBAction)onSetting:(id)sender {
-    
+    [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:2]
+                                          animated:YES];
 }
 - (IBAction)onCloud:(id)sender {
     

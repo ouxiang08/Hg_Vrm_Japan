@@ -8,16 +8,22 @@
 
 #import "HGChooseBrandViewController.h"
 #import "HGChooseTypeViewController.h"
+#import "HGCustomerListViewController.h"
 
 @interface HGChooseBrandViewController ()
 
+@property (strong, nonatomic) IBOutlet UIImageView *userPhotoImgV;
 @end
 
 @implementation HGChooseBrandViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onUser)];
+    tap.numberOfTapsRequired = 1;
+    self.userPhotoImgV.userInteractionEnabled = YES;
+    [self.userPhotoImgV addGestureRecognizer:tap];
 }
 
 - (IBAction)onFront:(id)sender {
@@ -33,6 +39,13 @@
     
     HGChooseTypeViewController *chooseType = [[HGChooseTypeViewController alloc] initWithNibName:@"HGChooseTypeViewController" bundle:nil];
     [self.navigationController pushViewController:chooseType animated:YES];
+}
+
+- (void)onUser{
+
+    HGCustomerListViewController *customerInfoVC = [[HGCustomerListViewController alloc] initWithNibName:@"HGCustomerListViewController" bundle:nil];
+    [self.navigationController pushViewController:customerInfoVC animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning {

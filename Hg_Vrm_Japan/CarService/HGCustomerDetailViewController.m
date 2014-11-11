@@ -8,6 +8,8 @@
 
 #import "HGCustomerDetailViewController.h"
 #import "HGDetailTableViewCell.h"
+#import "HGChooseBrandViewController.h"
+#import "HGChooseContentViewController.h"
 
 #define HGDetailTableViewCellIdentifier @"HGDetailTableViewCell"
 
@@ -30,6 +32,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onHome:(id)sender {
+    
+    [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:2]
+                                          animated:YES];
+}
+
+- (IBAction)onSetting:(id)sender {
+    
+    HGChooseContentViewController *chooseContentVC = [[HGChooseContentViewController alloc] initWithNibName:@"HGChooseContentViewController" bundle:nil];
+    [self.navigationController pushViewController:chooseContentVC animated:YES];
+}
 
 - (IBAction)onFront:(id)sender {
     
